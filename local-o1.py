@@ -24,6 +24,9 @@ def CEO_agent(idea):
     # Combine the responses from all agents
     final_response = "response_01: \n" + response_01 + "\n\n" + "response_02: \n" + response_02 + "\n\n" + "response_03: \n" + response_03 + "\n\n" + "response_04: \n" + response_04
 
+    # print the final response
+    print(final_response)
+
     # Call the new agent_secretary function with the initial idea and final result
     summary_response = agent_secretary(idea, final_response)
     return summary_response
