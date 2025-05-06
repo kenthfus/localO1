@@ -1,30 +1,69 @@
 from langchain_core.documents import Document
 import logging
+import os
 from typing import List, Optional
 from pymongo import MongoClient
 from langchain_mongodb.vectorstores import MongoDBAtlasVectorSearch
-from .vector_db import VectorDB  # Assuming base VectorDB class exists
+from .vector_db import VectorDB
+from openai import OpenAI
 
 logger = logging.getLogger(__name__)
 
 class MongoDBVectorDB(VectorDB):
-    """MongoDB Atlas vector search implementation of VectorDB."""
+    """MongoDB Atlas vector search implementation of VectorDB with DashScope embeddings."""
     
     def __init__(self, embeddings, collection_name: str, connection: str, 
                  database_name: str = "vector_db", index_name: str = "vector_index"):
+        # Initialize MongoDB client and collection
         self.client = MongoClient(connection)
         self.db = self.client[database_name]
         self.collection = self.db[collection_name]
         
+        # Initialize OpenAI-compatible client for DashScope
+        self.embeddings_client = OpenAI(
+            api_key=os.getenv("DASHSCOPE_API_KEY"),
+            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+        )
+        
+        # Configure vector store with custom embeddings
         self.vector_store = MongoDBAtlasVectorSearch(
             collection=self.collection,
-            embedding=embeddings,
+            embedding=self._get_dashscope_embeddings(embeddings),
             index_name=index_name
         )
         self.collection_name = collection_name
         self.database_name = database_name
         self.index_name = index_name
 
+    def _get_dashscope_embeddings(self, embeddings):
+        """Wrap the embeddings model with DashScope-compatible execution"""
+        original_embed_documents = embeddings.embed_documents
+        original_embed_query = embeddings.embed_query
+        
+        def dashscope_embed_documents(texts: List[str]) -> List[List[float]]:
+            response = self.embeddings_client.embeddings.create(
+                model="text-embedding-v3",
+                input=texts,
+                dimensions=1024,  # Match your model configuration
+                encoding_format="float"
+            )
+            return [e.embedding for e in response.data]
+        
+        def dashscope_embed_query(text: str) -> List[float]:
+            response = self.embeddings_client.embeddings.create(
+                model="text-embedding-v3",
+                input=text,
+                dimensions=1024,  # Match your model configuration
+                encoding_format="float"
+            )
+            return response.data[0].embedding
+        
+        # Monkey-patch the embedding methods
+        embeddings.embed_documents = dashscope_embed_documents
+        embeddings.embed_query = dashscope_embed_query
+        return embeddings
+
+    # Keep all original method implementations unchanged below
     def add_documents(self, documents: List[Document]) -> None:
         try:
             result = self.vector_store.add_documents(documents)
@@ -90,8 +129,7 @@ class MongoDBVectorDB(VectorDB):
     def get_vector_store(self) -> MongoDBAtlasVectorSearch:
         return self.vector_store
 
-    def create_index(self, dimensions: int = 1536) -> None:
-        # MongoDB Atlas vector search index creation
+    def create_index(self, dimensions: int = 1024) -> None:  # Updated default to match DashScope
         index = {
             "fields": [
                 {
