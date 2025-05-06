@@ -35,7 +35,8 @@ class DashScopeEmbeddings(Embeddings):
         return response.data[0].embedding
 
 # Initialize vector store
-mongo_uri = "mongodb+srv://user:pass@cluster.mongodb.net/"
+# mongo_uri = "mongodb+srv://user:pass@cluster.mongodb.net/"
+mongo_uri = "mongodb+srv://ehrehp20mongodev:QfvSb5Kh4cFXg5cz@cluster0.gcjlq1m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 vector_db = MongoDBVectorDB(
     embeddings=DashScopeEmbeddings(),  # Use native implementation
     collection_name="documents",
