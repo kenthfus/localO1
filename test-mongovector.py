@@ -3,7 +3,8 @@ from langchain_core.documents import Document
 from langchain.embeddings import OpenAIEmbeddings
 
 # Initialize vector store
-mongo_uri = "mongodb+srv://user:pass@cluster.mongodb.net/"
+# mongo_uri = "mongodb+srv://user:pass@cluster.mongodb.net/"
+mongo_uri = "mongodb+srv://ehrehp20mongodev:QfvSb5Kh4cFXg5cz@cluster0.gcjlq1m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 vector_db = MongoDBVectorDB(
     embeddings=OpenAIEmbeddings(),
     collection_name="documents",
