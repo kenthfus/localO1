@@ -3,7 +3,6 @@
 ✅ Summary
 - Free-tier clusters (M0/M2/M5): ❌ No vector search support.
 - Vector search required? ✅ Must use M10 or higher in Atlas.
-- Alternatives: Use local MongoDB 7.0+ or Atlas trial credits for testing.
 ```
 
 # MongoDB Vector DB Test Results
@@ -11,7 +10,8 @@
 ## 🧪 Test Execution Command
 ```bash
 python -m pytest vector_db/test-mongovector.py -v
-
+```
+```bash
 platform win32 -- Python 3.10.11, pytest-8.3.5, pluggy-1.5.0
 cachedir: .pytest_cache
 rootdir: C:\Users\thf679\Documents\projects\eHRSS\ehrss-eaif-common-lib\src
