@@ -1,3 +1,11 @@
+# Assumptions:
+```bash
+✅ Summary
+- Free-tier clusters (M0/M2/M5): ❌ No vector search support.
+- Vector search required? ✅ Must use M10 or higher in Atlas.
+- Alternatives: Use local MongoDB 7.0+ or Atlas trial credits for testing.
+```
+
 # MongoDB Vector DB Test Results
 
 ## 🧪 Test Execution Command
