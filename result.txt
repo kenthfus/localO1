@@ -1,25 +1,31 @@
 **Part A**  
-1. **Yes** – The document contains sections like "FINDINGS" and "IMPRESSION" typical of radiology reports.
+1. **Yes** – The title states "Radiology Report" and the content includes sections like Findings and Impression consistent with radiology reporting standards.
+
+---
 
 **Part B**  
-1. **Yes** – The title "Radiology Report" aligns with radiology terminology.  
-2. **Yes** – The content includes standard radiology sections such as "FINDINGS" and "IMPRESSION."
+1. **Yes** – The title explicitly contains the term "Radiology," aligning it with radiology.  
+2. **Yes** – The content includes standard radiology report sections such as "FINDINGS" and "IMPRESSION," indicating consistency with radiology reporting.
+
+---
 
 **Part C**  
-1. **Yes** – The document appears to be properly oriented without rotation or sequencing issues.  
-2. **Yes** – The text is clearly legible.  
-3. **Yes** – As it is a single-page report, page numbers are not required for this check.  
-4. **Yes** – There is no indication of missing content on the visible page.  
-5. **Yes** – The format and font suggest the report was computer-generated.  
-6. **Yes** – The structure follows a standard radiology template.  
-7. **Yes** – It is a single-page report, so page numbers are not required for this check.
+1. **Yes** – The document appears to be correctly oriented without any indication of rotation or reversed/page-mismatched pages.  
+2. **Yes** – The text is legible and clear.  
+3. **Yes** – As it is a single-page document, there are no missing pages.  
+4. **Yes** – All labeled sections appear complete and none seem absent.  
+5. **Yes** – The format and font suggest it was generated via computer rather than handwritten.  
+6. **Yes** – The structure follows a standard radiology report template with defined sections.  
+7. **Yes** – Single-page report; page numbers are not required for this case.
+
+---
 
 **Part D**  
-1. **No** – Patient name is missing; only PRN (123456) and DOB are provided.  
-2. **No** – No institution name or logo is present in the header.  
-3. **Yes** – Examination name is implied as "Radiology Report" and findings suggest chest imaging.  
-4. **Yes** – Examination date "24-Apr-2021 09:30" is present.  
-5. **Yes** – Reporter’s name "Dr Chan NAM" is present.  
-6. **No** – Reported date is not explicitly stated.  
-7. **Yes** – Findings and impression sections are present and contain relevant diagnostic information.  
-8. **Yes** – Referring doctor name "DR. CHAN NAM" is present.
+1. **No** – Patient name is not explicitly provided; only PRN (medical record number) and age/sex are partially indicated.  
+2. **No** – No institution name or logo is visible in the header or elsewhere in the document.  
+3. **No** – The specific examination name (e.g., Chest X-ray, CT scan) is not stated anywhere in the body of the report.  
+4. **Yes** – Examination date is provided: 24-Apr-2021 at 09:30.  
+5. **Yes** – Reporter’s name is present: Dr Chan NAM.  
+6. **No** – There is no explicit reported date mentioned in the document.  
+7. **Yes** – The report includes both Findings and Impression sections with descriptive content.  
+8. **Yes** – Referring doctor's name is specified: DR. CHAN NAM.
