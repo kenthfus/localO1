@@ -31,7 +31,7 @@ Answer Yes only if explicit value next to the corresponding label exist (labels 
 Make sure answer Yes only if the label is present and it's value is also present and not blank.
 1. Patient demographics? (e.g., name, sex, DOB, ID number). 
 2. Performing institution name/logo? (check headers). 
-3. The name of Examination name? 
+3. The name of Examination name? (don't use report title for examination name.)
 4. The value of examination date? 
 5. The value of Reporter’s name? 
 6. The value of Reported date? 
