@@ -1,18 +1,17 @@
-# vector_db/mongovector.py
 from langchain_core.documents import Document
-from pymongo import MongoClient, errors
-from openai import OpenAI
-import logging
-import os
-from typing import List, Optional, Dict, Union
-from abc import ABC, abstractmethod
+from pymongo import MongoClient
+from pymongo.operations import SearchIndexModel
 from langchain_core.vectorstores import VectorStore
-from vector_db.vector_db import VectorDB  # Import your base class
+from openai import OpenAI
+from typing import Optional, List
+import os
+import logging
+import time
 
 logger = logging.getLogger(__name__)
 
-class MongoDBVectorDB(VectorDB):
-    """Concrete implementation of VectorDB using MongoDB Atlas Text Search"""
+class MongoDBVectorDB:
+    _client = None  # Class-level shared client
 
     def __init__(
         self,
@@ -20,20 +19,27 @@ class MongoDBVectorDB(VectorDB):
         collection_name: str,
         connection: str,
         database_name: str = "vector_db",
-        index_name: str = "default_text_index"
+        index_name: str = "default_vector_index",
+        client: Optional[MongoClient] = None
     ):
-        self.client = MongoClient(connection)
+        """
+        Initialize MongoDBVectorDB with optional shared MongoClient.
+        If no client is provided, one will be created and reused for future instantiations.
+        """
+        if MongoDBVectorDB._client is None or client is not None:
+            MongoDBVectorDB._client = client if client else MongoClient(connection)
+
+        self.client = MongoDBVectorDB._client
         self.db = self.client[database_name]
         self.collection_name = collection_name
         self.index_name = index_name
+        self.collection = self.db[collection_name]
 
-        # Ensure database and collection exist
+        # Ensure collection exists
         if collection_name not in self.db.list_collection_names():
             self.db.create_collection(collection_name)
 
-        self.collection = self.db[collection_name]
-
-        # Initialize DashScope-compatible embedding client (optional)
+        # Initialize DashScope-compatible embedding client
         self.embeddings_client = OpenAI(
             api_key=os.getenv("DASHSCOPE_API_KEY"),
             base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
@@ -68,12 +74,15 @@ class MongoDBVectorDB(VectorDB):
         return wrapped
 
     def add_documents(self, documents: List[Document]) -> None:
-        """Insert LangChain Documents into the collection"""
         docs = []
-        for doc in documents:
+        texts = [doc.page_content for doc in documents]
+        embeddings = self.embeddings.embed_documents(texts)
+
+        for doc, embedding in zip(documents, embeddings):
             docs.append({
                 "page_content": doc.page_content,
-                "metadata": doc.metadata
+                "metadata": doc.metadata,
+                "embedding": embedding
             })
 
         if docs:
@@ -82,31 +91,25 @@ class MongoDBVectorDB(VectorDB):
         else:
             logger.warning("No documents to insert")
 
-    def similarity_search_with_score(
-        self,
-        query: str,
-        k: int = 4,
-        filter: Optional[dict] = None
-    ) -> List:
-        """Perform Atlas Text Search using $text operator"""
+    def similarity_search_with_score(self, query: str, k: int = 4, filter: Optional[dict] = None):
+        query_embedding = self.embeddings.embed_query(query)
+
         pipeline = [
             {
-                "$match": {
-                    "$text": {"$search": query}
+                "$vectorSearch": {
+                    "index": self.index_name,
+                    "path": "embedding",
+                    "queryVector": query_embedding,
+                    "numCandidates": 100,
+                    "limit": k
                 }
             },
             {
                 "$project": {
                     "page_content": 1,
                     "metadata": 1,
-                    "score": {"$meta": "textScore"}
+                    "score": {"$meta": "vectorSearchScore"}
                 }
-            },
-            {
-                "$sort": {"score": {"$meta": "textScore"}}
-            },
-            {
-                "$limit": k
             }
         ]
 
@@ -116,6 +119,39 @@ class MongoDBVectorDB(VectorDB):
         results = list(self.collection.aggregate(pipeline))
         return [(Document(page_content=r["page_content"], metadata=r.get("metadata")), r["score"]) for r in results]
 
+    def create_index(self) -> None:
+        try:
+            index_definition = {
+                "fields": [{
+                    "type": "vector",
+                    "path": "embedding",
+                    "numDimensions": 1024,
+                    "similarity": "dotProduct",
+                    "quantization": "scalar"
+                }]
+            }
+
+            search_index_model = SearchIndexModel(
+                definition=index_definition,
+                name=self.index_name,
+                type="vectorSearch"
+            )
+
+            result = self.collection.create_search_index(model=search_index_model)
+            logger.info(f"Vector index '{self.index_name}' created successfully. Index ID: {result}")
+
+            # Wait for index to become queryable
+            while True:
+                indices = list(self.collection.list_search_indexes(self.index_name))
+                if indices and indices[0].get("queryable") is True:
+                    break
+                time.sleep(5)
+            logger.info(f"Vector index '{self.index_name}' is now queryable.")
+
+        except Exception as e:
+            logger.error(f"Failed to create vector index: {str(e)}")
+            raise
+    
     def max_marginal_relevance_search_with_score(
         self,
         query: str,
@@ -124,35 +160,28 @@ class MongoDBVectorDB(VectorDB):
         lambda_mult: float = 0.5,
         filter: Optional[dict] = None
     ) -> List:
-        """Fallback to simple text search for MMR"""
+        """Perform MMR search using similarity search"""
         return self.similarity_search_with_score(query, k=k, filter=filter)
 
-    def query_search(self, query: dict, filter: dict = {}) -> List:
-        """Run a direct MongoDB query on the collection"""
-        return list(self.collection.find(query, filter))
-
     def check_documents_exist(self, checksum: List[str]) -> bool:
-        """Check if documents with given checksums exist in the collection"""
         count = self.collection.count_documents({"metadata.checksum": {"$in": checksum}})
         return count > 0
-
+    
     def remove_embeddings(self, document_id: str) -> None:
-        """Remove document by document_id from metadata"""
         self.collection.delete_many({"metadata.document_id": document_id})
 
+    def query_search(self, query: dict, filter: dict = {}) -> List:
+        return list(self.collection.find(query, filter))
+
     def delete_collection(self) -> None:
-        """Drop the entire collection"""
         self.db.drop_collection(self.collection_name)
 
     def get_vector_store(self) -> VectorStore:
-        raise NotImplementedError("Not applicable for text-based search")
-
-    def create_index(self) -> None:
-        """Create a standard Atlas Text Search index on 'page_content'"""
-        try:
-            # Create a text index on page_content field
-            self.collection.create_index([("page_content", "text")])
-            logger.info(f"Atlas Text Search index created on '{self.collection_name}.page_content'")
-        except errors.OperationFailure as e:
-            logger.error(f"Failed to create index: {str(e)}")
-            raise
+        """Get a LangChain VectorStore instance (not supported in this implementation)"""
+        raise NotImplementedError("Not applicable for this implementation")
+    
+    def close(self):
+        """Close the shared MongoDB client"""
+        if MongoDBVectorDB._client:
+            MongoDBVectorDB._client.close()
+            MongoDBVectorDB._client = None
