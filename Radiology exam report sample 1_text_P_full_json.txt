@@ -1,0 +1,3581 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2025-05-22T08:35:51Z",
+    "lastUpdatedDateTime": "2025-05-22T08:35:54Z",
+    "analyzeResult": {
+        "apiVersion": "2022-08-31",
+        "modelId": "prebuilt-read",
+        "stringIndexType": "textElements",
+        "content": "Accurate Scanning\nPatient : Chau On On 周安安 Patient ID : D2002001 Sex/Age, : Female / 66 Exam Date : 03-Sep-2021 09:30\nMRI Lumbar Sacral Spine (Plain)\nCLINICAL INFORMATION\nSlip and fall on 2 Sept 2018. c/o low back pain.\nVisit No. : 1909001527 E Client No. : 1908367 Accession No. : 037MR2018090301G Referring Doctor : Healthy Clinic\nTECHNIQUE: Multiplanar and multi-sequence imaging of the lumbosacral spine without/with intravenous contrast using a 0.3T MRI scanner.\nFINDINGS Vertebral body heights are otherwise well-maintained without compression fracture. No evidence of spinal stenosis. Mild subchondral sclerosis of the included sacroiliac joints noted. Incidental note of overdistended bladder. Lumbar spondylosis and mild degeneration found.\nIMPRESSION No fracture or dislocation is identified Lumbar spondylosis is accidentally found.\nThank you for your referral.\nAuthorized and Reported: 3 Sep 2021 15:13:59 PM\nTT\nDr. Chan Tai Tai Consultant Radiologist MBBS, FRCR, FHKCR FHKAM(Radiology)",
+        "pages": [
+            {
+                "pageNumber": 1,
+                "angle": 0,
+                "width": 8.2639,
+                "height": 11.6806,
+                "unit": "inch",
+                "words": [
+                    {
+                        "content": "Accurate",
+                        "polygon": [
+                            3.3258,
+                            1.7085,
+                            4.066,
+                            1.7085,
+                            4.066,
+                            1.9011,
+                            3.3258,
+                            1.8859
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 0,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Scanning",
+                        "polygon": [
+                            4.1015,
+                            1.7085,
+                            4.8924,
+                            1.7085,
+                            4.8924,
+                            1.9163,
+                            4.1015,
+                            1.9011
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 9,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Patient",
+                        "polygon": [
+                            1.4905,
+                            2.4436,
+                            1.8252,
+                            2.4436,
+                            1.8252,
+                            2.5653,
+                            1.4855,
+                            2.5653
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 18,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            1.8302,
+                            2.4436,
+                            1.8911,
+                            2.4436,
+                            1.8911,
+                            2.5653,
+                            1.8252,
+                            2.5653
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 26,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Chau",
+                        "polygon": [
+                            1.8961,
+                            2.4436,
+                            2.1547,
+                            2.4385,
+                            2.1547,
+                            2.5653,
+                            1.8961,
+                            2.5653
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 28,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "On",
+                        "polygon": [
+                            2.18,
+                            2.4385,
+                            2.322,
+                            2.4385,
+                            2.322,
+                            2.5703,
+                            2.18,
+                            2.5653
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 33,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "On",
+                        "polygon": [
+                            2.3474,
+                            2.4385,
+                            2.4893,
+                            2.4385,
+                            2.4893,
+                            2.5703,
+                            2.3474,
+                            2.5703
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 36,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "周",
+                        "polygon": [
+                            2.6008,
+                            2.4385,
+                            2.6718,
+                            2.4385,
+                            2.6718,
+                            2.5703,
+                            2.5958,
+                            2.5703
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 39,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "安",
+                        "polygon": [
+                            2.7175,
+                            2.4385,
+                            2.7935,
+                            2.4385,
+                            2.7884,
+                            2.5703,
+                            2.7124,
+                            2.5703
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 40,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "安",
+                        "polygon": [
+                            2.8341,
+                            2.4334,
+                            2.9101,
+                            2.4334,
+                            2.905,
+                            2.5703,
+                            2.829,
+                            2.5703
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 41,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Patient",
+                        "polygon": [
+                            1.4905,
+                            2.6362,
+                            1.8252,
+                            2.6413,
+                            1.8252,
+                            2.7579,
+                            1.4905,
+                            2.763
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 43,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "ID",
+                        "polygon": [
+                            1.8505,
+                            2.6413,
+                            1.9519,
+                            2.6362,
+                            1.9519,
+                            2.7579,
+                            1.8505,
+                            2.7579
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 51,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            1.9772,
+                            2.6362,
+                            2.0178,
+                            2.6362,
+                            2.0178,
+                            2.7579,
+                            1.9772,
+                            2.7579
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 54,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "D2002001",
+                        "polygon": [
+                            2.0432,
+                            2.6362,
+                            2.5501,
+                            2.6362,
+                            2.5501,
+                            2.7528,
+                            2.0381,
+                            2.7579
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 56,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Sex/Age,",
+                        "polygon": [
+                            1.4905,
+                            2.8289,
+                            1.8961,
+                            2.834,
+                            1.8961,
+                            2.9658,
+                            1.4855,
+                            2.9658
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 65,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            1.9215,
+                            2.834,
+                            1.957,
+                            2.834,
+                            1.957,
+                            2.9658,
+                            1.9215,
+                            2.9658
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 74,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Female",
+                        "polygon": [
+                            1.9823,
+                            2.834,
+                            2.3423,
+                            2.8289,
+                            2.3423,
+                            2.9607,
+                            1.9823,
+                            2.9658
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 76,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "polygon": [
+                            2.3676,
+                            2.8289,
+                            2.4082,
+                            2.8289,
+                            2.4082,
+                            2.9556,
+                            2.3676,
+                            2.9556
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 83,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "66",
+                        "polygon": [
+                            2.4335,
+                            2.8289,
+                            2.5755,
+                            2.8289,
+                            2.5755,
+                            2.9506,
+                            2.4386,
+                            2.9556
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 85,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "Exam",
+                        "polygon": [
+                            1.4905,
+                            3.0215,
+                            1.7187,
+                            3.0165,
+                            1.7187,
+                            3.1483,
+                            1.4905,
+                            3.1533
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 88,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Date",
+                        "polygon": [
+                            1.7643,
+                            3.0165,
+                            1.9975,
+                            3.0165,
+                            1.9925,
+                            3.1432,
+                            1.7592,
+                            3.1483
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 93,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            2.0229,
+                            3.0165,
+                            2.0533,
+                            3.0165,
+                            2.0533,
+                            3.1432,
+                            2.0178,
+                            3.1432
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 98,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "03-Sep-2021",
+                        "polygon": [
+                            2.0786,
+                            3.0165,
+                            2.682,
+                            3.0063,
+                            2.6769,
+                            3.1331,
+                            2.0786,
+                            3.1432
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 100,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "09:30",
+                        "polygon": [
+                            2.7073,
+                            3.0063,
+                            2.9963,
+                            3.0063,
+                            2.9912,
+                            3.128,
+                            2.7022,
+                            3.1331
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 112,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "MRI",
+                        "polygon": [
+                            1.4246,
+                            3.4018,
+                            1.6376,
+                            3.4018,
+                            1.6426,
+                            3.5336,
+                            1.4297,
+                            3.5336
+                        ],
+                        "confidence": 0.961,
+                        "span": {
+                            "offset": 118,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Lumbar",
+                        "polygon": [
+                            1.668,
+                            3.4018,
+                            2.0837,
+                            3.4018,
+                            2.0837,
+                            3.5386,
+                            1.668,
+                            3.5336
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 122,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Sacral",
+                        "polygon": [
+                            2.1091,
+                            3.4018,
+                            2.4285,
+                            3.4018,
+                            2.4285,
+                            3.5386,
+                            2.1141,
+                            3.5386
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 129,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Spine",
+                        "polygon": [
+                            2.4538,
+                            3.4018,
+                            2.7631,
+                            3.4018,
+                            2.7631,
+                            3.5437,
+                            2.4538,
+                            3.5386
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 136,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "(Plain)",
+                        "polygon": [
+                            2.7884,
+                            3.4018,
+                            3.1535,
+                            3.3967,
+                            3.1535,
+                            3.5437,
+                            2.7884,
+                            3.5437
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 142,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "CLINICAL",
+                        "polygon": [
+                            1.4246,
+                            3.7769,
+                            1.9012,
+                            3.782,
+                            1.9012,
+                            3.9189,
+                            1.4246,
+                            3.9189
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 150,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "INFORMATION",
+                        "polygon": [
+                            1.9316,
+                            3.782,
+                            2.7175,
+                            3.7871,
+                            2.7175,
+                            3.9189,
+                            1.9266,
+                            3.9189
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 159,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "Slip",
+                        "polygon": [
+                            1.4246,
+                            3.9797,
+                            1.6071,
+                            3.9797,
+                            1.6071,
+                            4.1217,
+                            1.4246,
+                            4.1217
+                        ],
+                        "confidence": 0.987,
+                        "span": {
+                            "offset": 171,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "and",
+                        "polygon": [
+                            1.6376,
+                            3.9797,
+                            1.8353,
+                            3.9797,
+                            1.8353,
+                            4.1217,
+                            1.6376,
+                            4.1217
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 176,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "fall",
+                        "polygon": [
+                            1.8606,
+                            3.9797,
+                            2.0229,
+                            3.9797,
+                            2.0229,
+                            4.1217,
+                            1.8606,
+                            4.1217
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 180,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "on",
+                        "polygon": [
+                            2.0482,
+                            3.9797,
+                            2.1902,
+                            3.9797,
+                            2.1902,
+                            4.1217,
+                            2.0482,
+                            4.1217
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 185,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "2",
+                        "polygon": [
+                            2.2155,
+                            3.9797,
+                            2.2814,
+                            3.9797,
+                            2.2814,
+                            4.1217,
+                            2.2155,
+                            4.1217
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 188,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Sept",
+                        "polygon": [
+                            2.3119,
+                            3.9797,
+                            2.5451,
+                            3.9797,
+                            2.5451,
+                            4.1217,
+                            2.3119,
+                            4.1217
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 190,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "2018.",
+                        "polygon": [
+                            2.5755,
+                            3.9797,
+                            2.8746,
+                            3.9797,
+                            2.8746,
+                            4.1217,
+                            2.5755,
+                            4.1217
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 195,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "c/o",
+                        "polygon": [
+                            2.9,
+                            3.9797,
+                            3.0723,
+                            3.9797,
+                            3.0723,
+                            4.1217,
+                            2.9,
+                            4.1217
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 201,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "low",
+                        "polygon": [
+                            3.0977,
+                            3.9797,
+                            3.2853,
+                            3.9797,
+                            3.2853,
+                            4.1217,
+                            3.0977,
+                            4.1217
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 205,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "back",
+                        "polygon": [
+                            3.3208,
+                            3.9797,
+                            3.5641,
+                            3.9797,
+                            3.5641,
+                            4.1217,
+                            3.3208,
+                            4.1217
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 209,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "pain.",
+                        "polygon": [
+                            3.5945,
+                            3.9797,
+                            3.8683,
+                            3.9848,
+                            3.8683,
+                            4.1217,
+                            3.5945,
+                            4.1217
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 214,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "Visit",
+                        "polygon": [
+                            4.1573,
+                            2.4436,
+                            4.3652,
+                            2.4487,
+                            4.3702,
+                            2.5653,
+                            4.1624,
+                            2.5653
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 220,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "No.",
+                        "polygon": [
+                            4.3905,
+                            2.4487,
+                            4.5629,
+                            2.4487,
+                            4.5629,
+                            2.5653,
+                            4.3905,
+                            2.5653
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 226,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            4.5832,
+                            2.4487,
+                            4.6237,
+                            2.4487,
+                            4.6237,
+                            2.5653,
+                            4.5832,
+                            2.5653
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 230,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "1909001527",
+                        "polygon": [
+                            4.6491,
+                            2.4487,
+                            5.2676,
+                            2.4436,
+                            5.2625,
+                            2.5653,
+                            4.644,
+                            2.5653
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 232,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "E",
+                        "polygon": [
+                            4.1624,
+                            2.6413,
+                            4.2131,
+                            2.6413,
+                            4.2131,
+                            2.7579,
+                            4.1624,
+                            2.7579
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 243,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Client",
+                        "polygon": [
+                            4.2333,
+                            2.6413,
+                            4.5223,
+                            2.6413,
+                            4.5223,
+                            2.7528,
+                            4.2333,
+                            2.7579
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 245,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "No.",
+                        "polygon": [
+                            4.5477,
+                            2.6413,
+                            4.72,
+                            2.6413,
+                            4.72,
+                            2.7528,
+                            4.5477,
+                            2.7528
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 252,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            4.7454,
+                            2.6413,
+                            4.7809,
+                            2.6413,
+                            4.7809,
+                            2.7528,
+                            4.7403,
+                            2.7528
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 256,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "1908367",
+                        "polygon": [
+                            4.8062,
+                            2.6413,
+                            5.2372,
+                            2.6362,
+                            5.2321,
+                            2.7579,
+                            4.8012,
+                            2.7528
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 258,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Accession",
+                        "polygon": [
+                            4.1624,
+                            2.839,
+                            4.6288,
+                            2.839,
+                            4.6288,
+                            2.9556,
+                            4.1624,
+                            2.9506
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 266,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "No.",
+                        "polygon": [
+                            4.6541,
+                            2.839,
+                            4.8316,
+                            2.834,
+                            4.8316,
+                            2.9556,
+                            4.6541,
+                            2.9556
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 276,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            4.8519,
+                            2.834,
+                            4.8823,
+                            2.834,
+                            4.8874,
+                            2.9556,
+                            4.8569,
+                            2.9556
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 280,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "037MR2018090301G",
+                        "polygon": [
+                            4.9076,
+                            2.834,
+                            5.9368,
+                            2.834,
+                            5.9368,
+                            2.9455,
+                            4.9076,
+                            2.9556
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 282,
+                            "length": 16
+                        }
+                    },
+                    {
+                        "content": "Referring",
+                        "polygon": [
+                            4.1674,
+                            3.0215,
+                            4.5984,
+                            3.0266,
+                            4.5984,
+                            3.1483,
+                            4.1674,
+                            3.1483
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 299,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Doctor",
+                        "polygon": [
+                            4.6187,
+                            3.0266,
+                            4.9583,
+                            3.0266,
+                            4.9583,
+                            3.1483,
+                            4.6237,
+                            3.1483
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 309,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            4.9786,
+                            3.0266,
+                            5.0141,
+                            3.0266,
+                            5.0141,
+                            3.1483,
+                            4.9837,
+                            3.1483
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 316,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Healthy",
+                        "polygon": [
+                            5.0395,
+                            3.0266,
+                            5.4146,
+                            3.0215,
+                            5.4146,
+                            3.1483,
+                            5.0395,
+                            3.1483
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 318,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Clinic",
+                        "polygon": [
+                            5.44,
+                            3.0215,
+                            5.7188,
+                            3.0215,
+                            5.7188,
+                            3.1483,
+                            5.44,
+                            3.1483
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 326,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "TECHNIQUE:",
+                        "polygon": [
+                            1.4297,
+                            4.365,
+                            2.0888,
+                            4.365,
+                            2.0888,
+                            4.507,
+                            1.4297,
+                            4.5019
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 333,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "Multiplanar",
+                        "polygon": [
+                            2.1141,
+                            4.365,
+                            2.7428,
+                            4.3701,
+                            2.7428,
+                            4.507,
+                            2.1141,
+                            4.507
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 344,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "and",
+                        "polygon": [
+                            2.7681,
+                            4.3701,
+                            2.9608,
+                            4.3701,
+                            2.9608,
+                            4.507,
+                            2.7681,
+                            4.507
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 356,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "multi-sequence",
+                        "polygon": [
+                            2.9912,
+                            4.3701,
+                            3.8125,
+                            4.3701,
+                            3.8075,
+                            4.512,
+                            2.9912,
+                            4.507
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 360,
+                            "length": 14
+                        }
+                    },
+                    {
+                        "content": "imaging",
+                        "polygon": [
+                            3.8379,
+                            4.3701,
+                            4.2536,
+                            4.3701,
+                            4.2486,
+                            4.512,
+                            3.8379,
+                            4.512
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 375,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "of",
+                        "polygon": [
+                            4.279,
+                            4.3701,
+                            4.3905,
+                            4.3701,
+                            4.3905,
+                            4.512,
+                            4.279,
+                            4.512
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 383,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "the",
+                        "polygon": [
+                            4.4159,
+                            4.3701,
+                            4.5933,
+                            4.3701,
+                            4.5933,
+                            4.512,
+                            4.4159,
+                            4.512
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 386,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "lumbosacral",
+                        "polygon": [
+                            4.6187,
+                            4.3701,
+                            5.2625,
+                            4.3701,
+                            5.2625,
+                            4.507,
+                            4.6187,
+                            4.512
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 390,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "spine",
+                        "polygon": [
+                            5.2929,
+                            4.3701,
+                            5.5769,
+                            4.365,
+                            5.5769,
+                            4.507,
+                            5.2929,
+                            4.507
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 402,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "without/with",
+                        "polygon": [
+                            5.6073,
+                            4.365,
+                            6.312,
+                            4.365,
+                            6.312,
+                            4.5019,
+                            5.6022,
+                            4.507
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 408,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "intravenous",
+                        "polygon": [
+                            1.4246,
+                            4.5729,
+                            2.0432,
+                            4.5678,
+                            2.0482,
+                            4.6945,
+                            1.4297,
+                            4.6945
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 421,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "contrast",
+                        "polygon": [
+                            2.0685,
+                            4.5678,
+                            2.5045,
+                            4.5627,
+                            2.5045,
+                            4.6996,
+                            2.0736,
+                            4.6945
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 433,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "using",
+                        "polygon": [
+                            2.5299,
+                            4.5627,
+                            2.8087,
+                            4.5627,
+                            2.8087,
+                            4.6996,
+                            2.5299,
+                            4.6996
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 442,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "a",
+                        "polygon": [
+                            2.8341,
+                            4.5627,
+                            2.8949,
+                            4.5627,
+                            2.8949,
+                            4.6996,
+                            2.8341,
+                            4.6996
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 448,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "0.3T",
+                        "polygon": [
+                            2.9202,
+                            4.5627,
+                            3.1585,
+                            4.5627,
+                            3.1585,
+                            4.6996,
+                            2.9202,
+                            4.6996
+                        ],
+                        "confidence": 0.982,
+                        "span": {
+                            "offset": 450,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "MRI",
+                        "polygon": [
+                            3.1839,
+                            4.5627,
+                            3.3968,
+                            4.5627,
+                            3.3968,
+                            4.6945,
+                            3.1839,
+                            4.6996
+                        ],
+                        "confidence": 0.902,
+                        "span": {
+                            "offset": 455,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "scanner.",
+                        "polygon": [
+                            3.4222,
+                            4.5627,
+                            3.8835,
+                            4.5678,
+                            3.8835,
+                            4.6945,
+                            3.4222,
+                            4.6945
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 459,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "FINDINGS",
+                        "polygon": [
+                            1.4297,
+                            4.948,
+                            1.957,
+                            4.948,
+                            1.9519,
+                            5.0697,
+                            1.4297,
+                            5.0697
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 468,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Vertebral",
+                        "polygon": [
+                            1.4297,
+                            5.1407,
+                            1.9063,
+                            5.1407,
+                            1.9012,
+                            5.2775,
+                            1.4246,
+                            5.2775
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 477,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "body",
+                        "polygon": [
+                            1.9316,
+                            5.1407,
+                            2.1953,
+                            5.1407,
+                            2.1953,
+                            5.2775,
+                            1.9316,
+                            5.2775
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 487,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "heights",
+                        "polygon": [
+                            2.2206,
+                            5.1407,
+                            2.6211,
+                            5.1407,
+                            2.6211,
+                            5.2775,
+                            2.2206,
+                            5.2775
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 492,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "are",
+                        "polygon": [
+                            2.6465,
+                            5.1407,
+                            2.8138,
+                            5.1407,
+                            2.8138,
+                            5.2775,
+                            2.6465,
+                            5.2775
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 500,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "otherwise",
+                        "polygon": [
+                            2.8442,
+                            5.1407,
+                            3.3765,
+                            5.1407,
+                            3.3715,
+                            5.2775,
+                            2.8442,
+                            5.2775
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 504,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "well-maintained",
+                        "polygon": [
+                            3.4019,
+                            5.1407,
+                            4.2587,
+                            5.1407,
+                            4.2587,
+                            5.2775,
+                            3.4019,
+                            5.2775
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 514,
+                            "length": 15
+                        }
+                    },
+                    {
+                        "content": "without",
+                        "polygon": [
+                            4.284,
+                            5.1407,
+                            4.6947,
+                            5.1407,
+                            4.6947,
+                            5.2775,
+                            4.284,
+                            5.2775
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 530,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "compression",
+                        "polygon": [
+                            4.72,
+                            5.1407,
+                            5.3943,
+                            5.1457,
+                            5.3943,
+                            5.2725,
+                            4.72,
+                            5.2775
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 538,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "fracture.",
+                        "polygon": [
+                            5.4197,
+                            5.1457,
+                            5.8912,
+                            5.1457,
+                            5.8912,
+                            5.2725,
+                            5.4197,
+                            5.2725
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 550,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "No",
+                        "polygon": [
+                            1.4297,
+                            5.3333,
+                            1.5717,
+                            5.3384,
+                            1.5717,
+                            5.4651,
+                            1.4297,
+                            5.4601
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 560,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "evidence",
+                        "polygon": [
+                            1.597,
+                            5.3384,
+                            2.0786,
+                            5.3384,
+                            2.0786,
+                            5.4651,
+                            1.597,
+                            5.4651
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 563,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "of",
+                        "polygon": [
+                            2.1091,
+                            5.3384,
+                            2.2155,
+                            5.3384,
+                            2.2155,
+                            5.4651,
+                            2.1091,
+                            5.4651
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 572,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "spinal",
+                        "polygon": [
+                            2.2409,
+                            5.3384,
+                            2.5501,
+                            5.3384,
+                            2.5501,
+                            5.4702,
+                            2.2409,
+                            5.4651
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 575,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "stenosis.",
+                        "polygon": [
+                            2.5755,
+                            5.3384,
+                            3.0521,
+                            5.3384,
+                            3.0521,
+                            5.4702,
+                            2.5755,
+                            5.4702
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 582,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Mild",
+                        "polygon": [
+                            1.4348,
+                            5.526,
+                            1.6578,
+                            5.526,
+                            1.6578,
+                            5.6578,
+                            1.4348,
+                            5.6578
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 592,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "subchondral",
+                        "polygon": [
+                            1.6832,
+                            5.526,
+                            2.3372,
+                            5.526,
+                            2.3423,
+                            5.6628,
+                            1.6832,
+                            5.6578
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 597,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "sclerosis",
+                        "polygon": [
+                            2.3676,
+                            5.526,
+                            2.8138,
+                            5.526,
+                            2.8188,
+                            5.6628,
+                            2.3676,
+                            5.6628
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 609,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "of",
+                        "polygon": [
+                            2.8442,
+                            5.526,
+                            2.9405,
+                            5.526,
+                            2.9405,
+                            5.6628,
+                            2.8442,
+                            5.6628
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 619,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "the",
+                        "polygon": [
+                            2.9659,
+                            5.526,
+                            3.1484,
+                            5.526,
+                            3.1484,
+                            5.6628,
+                            2.9709,
+                            5.6628
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 622,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "included",
+                        "polygon": [
+                            3.1737,
+                            5.526,
+                            3.63,
+                            5.526,
+                            3.6351,
+                            5.6628,
+                            3.1737,
+                            5.6628
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 626,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "sacroiliac",
+                        "polygon": [
+                            3.6604,
+                            5.526,
+                            4.1421,
+                            5.526,
+                            4.1472,
+                            5.6628,
+                            3.6604,
+                            5.6628
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 635,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "joints",
+                        "polygon": [
+                            4.1725,
+                            5.526,
+                            4.4666,
+                            5.526,
+                            4.4666,
+                            5.6628,
+                            4.1725,
+                            5.6628
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 646,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "noted.",
+                        "polygon": [
+                            4.4919,
+                            5.526,
+                            4.8468,
+                            5.526,
+                            4.8468,
+                            5.6628,
+                            4.497,
+                            5.6628
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 653,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Incidental",
+                        "polygon": [
+                            1.4348,
+                            5.7237,
+                            1.9418,
+                            5.7186,
+                            1.9418,
+                            5.8504,
+                            1.4348,
+                            5.8453
+                        ],
+                        "confidence": 0.964,
+                        "span": {
+                            "offset": 660,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "note",
+                        "polygon": [
+                            1.9671,
+                            5.7186,
+                            2.2155,
+                            5.7186,
+                            2.2155,
+                            5.8504,
+                            1.9671,
+                            5.8504
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 671,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "of",
+                        "polygon": [
+                            2.2409,
+                            5.7186,
+                            2.3524,
+                            5.7186,
+                            2.3524,
+                            5.8504,
+                            2.2409,
+                            5.8504
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 676,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "overdistended",
+                        "polygon": [
+                            2.3778,
+                            5.7186,
+                            3.1332,
+                            5.7186,
+                            3.1332,
+                            5.8504,
+                            2.3778,
+                            5.8504
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 679,
+                            "length": 13
+                        }
+                    },
+                    {
+                        "content": "bladder.",
+                        "polygon": [
+                            3.1585,
+                            5.7186,
+                            3.5996,
+                            5.7186,
+                            3.5996,
+                            5.8504,
+                            3.1585,
+                            5.8504
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 693,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Lumbar",
+                        "polygon": [
+                            1.4297,
+                            5.9113,
+                            1.8201,
+                            5.9113,
+                            1.8201,
+                            6.0481,
+                            1.4246,
+                            6.0481
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 702,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "spondylosis",
+                        "polygon": [
+                            1.8505,
+                            5.9113,
+                            2.4741,
+                            5.9062,
+                            2.4741,
+                            6.0481,
+                            1.8505,
+                            6.0481
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 709,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "and",
+                        "polygon": [
+                            2.4994,
+                            5.9062,
+                            2.6972,
+                            5.9062,
+                            2.6972,
+                            6.0481,
+                            2.4994,
+                            6.0481
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 721,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "mild",
+                        "polygon": [
+                            2.7276,
+                            5.9062,
+                            2.9608,
+                            5.9062,
+                            2.9608,
+                            6.0481,
+                            2.7276,
+                            6.0481
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 725,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "degeneration",
+                        "polygon": [
+                            2.9862,
+                            5.9062,
+                            3.6909,
+                            5.9062,
+                            3.6909,
+                            6.0431,
+                            2.9862,
+                            6.0481
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 730,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "found.",
+                        "polygon": [
+                            3.7213,
+                            5.9062,
+                            4.0711,
+                            5.9062,
+                            4.0762,
+                            6.038,
+                            3.7213,
+                            6.0431
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 743,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "IMPRESSION",
+                        "polygon": [
+                            1.4297,
+                            6.2965,
+                            2.0939,
+                            6.2965,
+                            2.0939,
+                            6.4233,
+                            1.4297,
+                            6.4132
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 750,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "No",
+                        "polygon": [
+                            1.4348,
+                            6.4892,
+                            1.5767,
+                            6.4892,
+                            1.5767,
+                            6.6159,
+                            1.4348,
+                            6.6109
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 761,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "fracture",
+                        "polygon": [
+                            1.6021,
+                            6.4892,
+                            2.0279,
+                            6.4892,
+                            2.0279,
+                            6.6159,
+                            1.597,
+                            6.6159
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 764,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "or",
+                        "polygon": [
+                            2.0533,
+                            6.4892,
+                            2.1699,
+                            6.4892,
+                            2.1699,
+                            6.6159,
+                            2.0533,
+                            6.6159
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 773,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "dislocation",
+                        "polygon": [
+                            2.1953,
+                            6.4892,
+                            2.7681,
+                            6.4892,
+                            2.7681,
+                            6.6159,
+                            2.1953,
+                            6.6159
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 776,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "is",
+                        "polygon": [
+                            2.7986,
+                            6.4892,
+                            2.8797,
+                            6.4892,
+                            2.8797,
+                            6.6159,
+                            2.7986,
+                            6.6159
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 788,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "identified",
+                        "polygon": [
+                            2.905,
+                            6.4892,
+                            3.4171,
+                            6.4841,
+                            3.412,
+                            6.6109,
+                            2.905,
+                            6.6159
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 791,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "Lumbar",
+                        "polygon": [
+                            1.4348,
+                            6.6869,
+                            1.8201,
+                            6.6818,
+                            1.8252,
+                            6.8187,
+                            1.4398,
+                            6.8137
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 802,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "spondylosis",
+                        "polygon": [
+                            1.8454,
+                            6.6818,
+                            2.469,
+                            6.6768,
+                            2.469,
+                            6.8187,
+                            1.8505,
+                            6.8187
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 809,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "is",
+                        "polygon": [
+                            2.4944,
+                            6.6768,
+                            2.5755,
+                            6.6768,
+                            2.5755,
+                            6.8187,
+                            2.4994,
+                            6.8187
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 821,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "accidentally",
+                        "polygon": [
+                            2.6008,
+                            6.6768,
+                            3.2295,
+                            6.6768,
+                            3.2346,
+                            6.8187,
+                            2.6059,
+                            6.8187
+                        ],
+                        "confidence": 0.957,
+                        "span": {
+                            "offset": 824,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "found.",
+                        "polygon": [
+                            3.2599,
+                            6.6768,
+                            3.6097,
+                            6.6717,
+                            3.6097,
+                            6.8137,
+                            3.2599,
+                            6.8137
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 837,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Thank",
+                        "polygon": [
+                            1.4398,
+                            7.0621,
+                            1.7491,
+                            7.0621,
+                            1.7491,
+                            7.204,
+                            1.4398,
+                            7.199
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 844,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "you",
+                        "polygon": [
+                            1.7745,
+                            7.0621,
+                            1.9671,
+                            7.0671,
+                            1.9671,
+                            7.204,
+                            1.7745,
+                            7.204
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 850,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "for",
+                        "polygon": [
+                            1.9925,
+                            7.0671,
+                            2.1496,
+                            7.0671,
+                            2.1496,
+                            7.204,
+                            1.9925,
+                            7.204
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 854,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "your",
+                        "polygon": [
+                            2.18,
+                            7.0671,
+                            2.4082,
+                            7.0671,
+                            2.4082,
+                            7.204,
+                            2.175,
+                            7.204
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 858,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "referral.",
+                        "polygon": [
+                            2.4335,
+                            7.0671,
+                            2.8797,
+                            7.0621,
+                            2.8746,
+                            7.204,
+                            2.4335,
+                            7.204
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 863,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Authorized",
+                        "polygon": [
+                            1.4956,
+                            7.8479,
+                            2.0178,
+                            7.8428,
+                            2.0127,
+                            7.9695,
+                            1.4956,
+                            7.9695
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 873,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "and",
+                        "polygon": [
+                            2.0432,
+                            7.8377,
+                            2.2257,
+                            7.8377,
+                            2.2257,
+                            7.9695,
+                            2.0381,
+                            7.9695
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 884,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Reported:",
+                        "polygon": [
+                            2.251,
+                            7.8377,
+                            2.7276,
+                            7.8377,
+                            2.7225,
+                            7.9695,
+                            2.251,
+                            7.9695
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 888,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "3",
+                        "polygon": [
+                            2.7529,
+                            7.8377,
+                            2.8036,
+                            7.8377,
+                            2.7986,
+                            7.9695,
+                            2.7479,
+                            7.9695
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 898,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Sep",
+                        "polygon": [
+                            2.829,
+                            7.8377,
+                            3.0064,
+                            7.8377,
+                            3.0014,
+                            7.9695,
+                            2.8239,
+                            7.9695
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 900,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "2021",
+                        "polygon": [
+                            3.0318,
+                            7.8377,
+                            3.2903,
+                            7.8377,
+                            3.2903,
+                            7.9695,
+                            3.0267,
+                            7.9695
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 904,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "15:13:59",
+                        "polygon": [
+                            3.3613,
+                            7.8377,
+                            3.7821,
+                            7.8428,
+                            3.7821,
+                            7.9645,
+                            3.3563,
+                            7.9695
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 909,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "PM",
+                        "polygon": [
+                            3.8075,
+                            7.8428,
+                            3.9444,
+                            7.8428,
+                            3.9393,
+                            7.9645,
+                            3.8075,
+                            7.9645
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 918,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "TT",
+                        "polygon": [
+                            6.4996,
+                            7.9087,
+                            6.7125,
+                            7.9087,
+                            6.7125,
+                            8.076,
+                            6.5046,
+                            8.076
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 921,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "Dr.",
+                        "polygon": [
+                            5.8811,
+                            8.2332,
+                            6.0433,
+                            8.2281,
+                            6.0433,
+                            8.3498,
+                            5.8811,
+                            8.3498
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 924,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Chan",
+                        "polygon": [
+                            6.0686,
+                            8.2281,
+                            6.3272,
+                            8.2281,
+                            6.3272,
+                            8.3498,
+                            6.0686,
+                            8.3498
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 928,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Tai",
+                        "polygon": [
+                            6.383,
+                            8.2281,
+                            6.5553,
+                            8.2281,
+                            6.5553,
+                            8.3498,
+                            6.383,
+                            8.3498
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 933,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Tai",
+                        "polygon": [
+                            6.5807,
+                            8.2281,
+                            6.7379,
+                            8.2281,
+                            6.7379,
+                            8.3498,
+                            6.5807,
+                            8.3498
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 937,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Consultant",
+                        "polygon": [
+                            5.6428,
+                            8.4207,
+                            6.1548,
+                            8.4207,
+                            6.1548,
+                            8.5475,
+                            5.6428,
+                            8.5475
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 941,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "Radiologist",
+                        "polygon": [
+                            6.1802,
+                            8.4207,
+                            6.7328,
+                            8.4309,
+                            6.7328,
+                            8.5475,
+                            6.1802,
+                            8.5475
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 952,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "MBBS,",
+                        "polygon": [
+                            5.7594,
+                            8.6083,
+                            6.0686,
+                            8.6083,
+                            6.0737,
+                            8.7351,
+                            5.7644,
+                            8.7401
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 964,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "FRCR,",
+                        "polygon": [
+                            6.094,
+                            8.6083,
+                            6.383,
+                            8.6033,
+                            6.3779,
+                            8.73,
+                            6.0991,
+                            8.7351
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 970,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "FHKCR",
+                        "polygon": [
+                            6.4083,
+                            8.6033,
+                            6.7328,
+                            8.6033,
+                            6.7277,
+                            8.7351,
+                            6.4032,
+                            8.73
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 976,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "FHKAM(Radiology)",
+                        "polygon": [
+                            5.8101,
+                            8.7959,
+                            6.7379,
+                            8.8111,
+                            6.7328,
+                            8.9379,
+                            5.8151,
+                            8.9277
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 982,
+                            "length": 16
+                        }
+                    }
+                ],
+                "lines": [
+                    {
+                        "content": "Accurate Scanning",
+                        "polygon": [
+                            3.3258,
+                            1.7034,
+                            4.9228,
+                            1.7085,
+                            4.9228,
+                            1.9113,
+                            3.3258,
+                            1.8961
+                        ],
+                        "spans": [
+                            {
+                                "offset": 0,
+                                "length": 17
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Patient : Chau On On 周安安",
+                        "polygon": [
+                            1.4855,
+                            2.4334,
+                            2.9202,
+                            2.4334,
+                            2.9202,
+                            2.5653,
+                            1.4855,
+                            2.5703
+                        ],
+                        "spans": [
+                            {
+                                "offset": 18,
+                                "length": 24
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Patient ID : D2002001",
+                        "polygon": [
+                            1.4855,
+                            2.6362,
+                            2.5552,
+                            2.6312,
+                            2.5552,
+                            2.7528,
+                            1.4855,
+                            2.7579
+                        ],
+                        "spans": [
+                            {
+                                "offset": 43,
+                                "length": 21
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Sex/Age, : Female / 66",
+                        "polygon": [
+                            1.4855,
+                            2.8238,
+                            2.5755,
+                            2.8238,
+                            2.5755,
+                            2.9556,
+                            1.4855,
+                            2.9607
+                        ],
+                        "spans": [
+                            {
+                                "offset": 65,
+                                "length": 22
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Exam Date : 03-Sep-2021 09:30",
+                        "polygon": [
+                            1.4855,
+                            3.0215,
+                            3.0014,
+                            3.0013,
+                            3.0064,
+                            3.128,
+                            1.4855,
+                            3.1483
+                        ],
+                        "spans": [
+                            {
+                                "offset": 88,
+                                "length": 29
+                            }
+                        ]
+                    },
+                    {
+                        "content": "MRI Lumbar Sacral Spine (Plain)",
+                        "polygon": [
+                            1.4246,
+                            3.3967,
+                            3.1535,
+                            3.3967,
+                            3.1535,
+                            3.5386,
+                            1.4246,
+                            3.5336
+                        ],
+                        "spans": [
+                            {
+                                "offset": 118,
+                                "length": 31
+                            }
+                        ]
+                    },
+                    {
+                        "content": "CLINICAL INFORMATION",
+                        "polygon": [
+                            1.4246,
+                            3.7769,
+                            2.7479,
+                            3.7769,
+                            2.7479,
+                            3.9189,
+                            1.4246,
+                            3.9138
+                        ],
+                        "spans": [
+                            {
+                                "offset": 150,
+                                "length": 20
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Slip and fall on 2 Sept 2018. c/o low back pain.",
+                        "polygon": [
+                            1.4196,
+                            3.9746,
+                            3.8734,
+                            3.9746,
+                            3.8734,
+                            4.1217,
+                            1.4196,
+                            4.1217
+                        ],
+                        "spans": [
+                            {
+                                "offset": 171,
+                                "length": 48
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Visit No. : 1909001527",
+                        "polygon": [
+                            4.1573,
+                            2.4436,
+                            5.2727,
+                            2.4385,
+                            5.2727,
+                            2.5602,
+                            4.1573,
+                            2.5602
+                        ],
+                        "spans": [
+                            {
+                                "offset": 220,
+                                "length": 22
+                            }
+                        ]
+                    },
+                    {
+                        "content": "E Client No. : 1908367",
+                        "polygon": [
+                            4.1573,
+                            2.6362,
+                            5.2422,
+                            2.6362,
+                            5.2422,
+                            2.7528,
+                            4.1573,
+                            2.7528
+                        ],
+                        "spans": [
+                            {
+                                "offset": 243,
+                                "length": 22
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Accession No. : 037MR2018090301G",
+                        "polygon": [
+                            4.1624,
+                            2.834,
+                            5.952,
+                            2.8289,
+                            5.952,
+                            2.9506,
+                            4.1624,
+                            2.9556
+                        ],
+                        "spans": [
+                            {
+                                "offset": 266,
+                                "length": 32
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Referring Doctor : Healthy Clinic",
+                        "polygon": [
+                            4.1624,
+                            3.0215,
+                            5.7239,
+                            3.0165,
+                            5.7239,
+                            3.1432,
+                            4.1624,
+                            3.1432
+                        ],
+                        "spans": [
+                            {
+                                "offset": 299,
+                                "length": 33
+                            }
+                        ]
+                    },
+                    {
+                        "content": "TECHNIQUE: Multiplanar and multi-sequence imaging of the lumbosacral spine without/with",
+                        "polygon": [
+                            1.4246,
+                            4.3599,
+                            6.3171,
+                            4.3599,
+                            6.3171,
+                            4.507,
+                            1.4246,
+                            4.507
+                        ],
+                        "spans": [
+                            {
+                                "offset": 333,
+                                "length": 87
+                            }
+                        ]
+                    },
+                    {
+                        "content": "intravenous contrast using a 0.3T MRI scanner.",
+                        "polygon": [
+                            1.4246,
+                            4.5627,
+                            3.8835,
+                            4.5576,
+                            3.8835,
+                            4.6895,
+                            1.4246,
+                            4.6945
+                        ],
+                        "spans": [
+                            {
+                                "offset": 421,
+                                "length": 46
+                            }
+                        ]
+                    },
+                    {
+                        "content": "FINDINGS",
+                        "polygon": [
+                            1.4246,
+                            4.948,
+                            1.9722,
+                            4.948,
+                            1.9722,
+                            5.0646,
+                            1.4246,
+                            5.0646
+                        ],
+                        "spans": [
+                            {
+                                "offset": 468,
+                                "length": 8
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Vertebral body heights are otherwise well-maintained without compression fracture.",
+                        "polygon": [
+                            1.4246,
+                            5.1356,
+                            5.8912,
+                            5.1356,
+                            5.8912,
+                            5.2725,
+                            1.4246,
+                            5.2725
+                        ],
+                        "spans": [
+                            {
+                                "offset": 477,
+                                "length": 82
+                            }
+                        ]
+                    },
+                    {
+                        "content": "No evidence of spinal stenosis.",
+                        "polygon": [
+                            1.4246,
+                            5.3333,
+                            3.0521,
+                            5.3333,
+                            3.0521,
+                            5.4651,
+                            1.4246,
+                            5.4601
+                        ],
+                        "spans": [
+                            {
+                                "offset": 560,
+                                "length": 31
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Mild subchondral sclerosis of the included sacroiliac joints noted.",
+                        "polygon": [
+                            1.4297,
+                            5.5209,
+                            4.8519,
+                            5.526,
+                            4.8519,
+                            5.6628,
+                            1.4297,
+                            5.6578
+                        ],
+                        "spans": [
+                            {
+                                "offset": 592,
+                                "length": 67
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Incidental note of overdistended bladder.",
+                        "polygon": [
+                            1.4297,
+                            5.7135,
+                            3.5996,
+                            5.7135,
+                            3.5996,
+                            5.8453,
+                            1.4297,
+                            5.8453
+                        ],
+                        "spans": [
+                            {
+                                "offset": 660,
+                                "length": 41
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Lumbar spondylosis and mild degeneration found.",
+                        "polygon": [
+                            1.4246,
+                            5.9062,
+                            4.0711,
+                            5.9062,
+                            4.0711,
+                            6.0431,
+                            1.4246,
+                            6.0431
+                        ],
+                        "spans": [
+                            {
+                                "offset": 702,
+                                "length": 47
+                            }
+                        ]
+                    },
+                    {
+                        "content": "IMPRESSION",
+                        "polygon": [
+                            1.4297,
+                            6.2915,
+                            2.1192,
+                            6.2915,
+                            2.1192,
+                            6.4182,
+                            1.4297,
+                            6.4182
+                        ],
+                        "spans": [
+                            {
+                                "offset": 750,
+                                "length": 10
+                            }
+                        ]
+                    },
+                    {
+                        "content": "No fracture or dislocation is identified",
+                        "polygon": [
+                            1.4297,
+                            6.4841,
+                            3.4272,
+                            6.4841,
+                            3.4323,
+                            6.6109,
+                            1.4297,
+                            6.6109
+                        ],
+                        "spans": [
+                            {
+                                "offset": 761,
+                                "length": 40
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Lumbar spondylosis is accidentally found.",
+                        "polygon": [
+                            1.4297,
+                            6.6768,
+                            3.6097,
+                            6.6717,
+                            3.6097,
+                            6.8137,
+                            1.4297,
+                            6.8187
+                        ],
+                        "spans": [
+                            {
+                                "offset": 802,
+                                "length": 41
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Thank you for your referral.",
+                        "polygon": [
+                            1.4348,
+                            7.057,
+                            2.8746,
+                            7.0621,
+                            2.8746,
+                            7.204,
+                            1.4348,
+                            7.199
+                        ],
+                        "spans": [
+                            {
+                                "offset": 844,
+                                "length": 28
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Authorized and Reported: 3 Sep 2021 15:13:59 PM",
+                        "polygon": [
+                            1.4905,
+                            7.8377,
+                            3.9849,
+                            7.8327,
+                            3.9849,
+                            7.9645,
+                            1.4905,
+                            7.9695
+                        ],
+                        "spans": [
+                            {
+                                "offset": 873,
+                                "length": 47
+                            }
+                        ]
+                    },
+                    {
+                        "content": "TT",
+                        "polygon": [
+                            6.4945,
+                            7.9138,
+                            6.7226,
+                            7.9087,
+                            6.7226,
+                            8.076,
+                            6.4945,
+                            8.076
+                        ],
+                        "spans": [
+                            {
+                                "offset": 921,
+                                "length": 2
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Dr. Chan Tai Tai",
+                        "polygon": [
+                            5.8811,
+                            8.2281,
+                            6.7379,
+                            8.223,
+                            6.7379,
+                            8.3447,
+                            5.8811,
+                            8.3498
+                        ],
+                        "spans": [
+                            {
+                                "offset": 924,
+                                "length": 16
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Consultant Radiologist",
+                        "polygon": [
+                            5.6377,
+                            8.4207,
+                            6.7328,
+                            8.4207,
+                            6.7277,
+                            8.5475,
+                            5.6377,
+                            8.5424
+                        ],
+                        "spans": [
+                            {
+                                "offset": 941,
+                                "length": 22
+                            }
+                        ]
+                    },
+                    {
+                        "content": "MBBS, FRCR, FHKCR",
+                        "polygon": [
+                            5.7543,
+                            8.6083,
+                            6.7379,
+                            8.6033,
+                            6.7379,
+                            8.73,
+                            5.7543,
+                            8.7351
+                        ],
+                        "spans": [
+                            {
+                                "offset": 964,
+                                "length": 17
+                            }
+                        ]
+                    },
+                    {
+                        "content": "FHKAM(Radiology)",
+                        "polygon": [
+                            5.8101,
+                            8.7959,
+                            6.7379,
+                            8.801,
+                            6.7379,
+                            8.9379,
+                            5.8101,
+                            8.9226
+                        ],
+                        "spans": [
+                            {
+                                "offset": 982,
+                                "length": 16
+                            }
+                        ]
+                    }
+                ],
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 998
+                    }
+                ],
+                "kind": "document"
+            }
+        ],
+        "paragraphs": [
+            {
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 17
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            3.3258,
+                            1.7034,
+                            4.9235,
+                            1.7085,
+                            4.9228,
+                            1.9113,
+                            3.3252,
+                            1.9062
+                        ]
+                    }
+                ],
+                "content": "Accurate Scanning"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 18,
+                        "length": 99
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4855,
+                            2.4334,
+                            3.0064,
+                            2.4334,
+                            3.0064,
+                            3.1483,
+                            1.4855,
+                            3.1483
+                        ]
+                    }
+                ],
+                "content": "Patient : Chau On On 周安安 Patient ID : D2002001 Sex/Age, : Female / 66 Exam Date : 03-Sep-2021 09:30"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 118,
+                        "length": 31
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4246,
+                            3.3967,
+                            3.1535,
+                            3.3967,
+                            3.1535,
+                            3.5386,
+                            1.4246,
+                            3.5386
+                        ]
+                    }
+                ],
+                "content": "MRI Lumbar Sacral Spine (Plain)"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 150,
+                        "length": 20
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4246,
+                            3.7769,
+                            2.7479,
+                            3.7769,
+                            2.7479,
+                            3.9189,
+                            1.4246,
+                            3.9189
+                        ]
+                    }
+                ],
+                "content": "CLINICAL INFORMATION"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 171,
+                        "length": 48
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4196,
+                            3.9746,
+                            3.8734,
+                            3.9746,
+                            3.8734,
+                            4.1217,
+                            1.4196,
+                            4.1217
+                        ]
+                    }
+                ],
+                "content": "Slip and fall on 2 Sept 2018. c/o low back pain."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 220,
+                        "length": 112
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            4.1573,
+                            2.4385,
+                            5.952,
+                            2.4385,
+                            5.952,
+                            3.1432,
+                            4.1573,
+                            3.1432
+                        ]
+                    }
+                ],
+                "content": "Visit No. : 1909001527 E Client No. : 1908367 Accession No. : 037MR2018090301G Referring Doctor : Healthy Clinic"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 333,
+                        "length": 134
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4246,
+                            4.3599,
+                            6.3171,
+                            4.3599,
+                            6.3171,
+                            4.6945,
+                            1.4246,
+                            4.6945
+                        ]
+                    }
+                ],
+                "content": "TECHNIQUE: Multiplanar and multi-sequence imaging of the lumbosacral spine without/with intravenous contrast using a 0.3T MRI scanner."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 468,
+                        "length": 281
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4246,
+                            4.948,
+                            5.8912,
+                            4.948,
+                            5.8912,
+                            6.0431,
+                            1.4246,
+                            6.0431
+                        ]
+                    }
+                ],
+                "content": "FINDINGS Vertebral body heights are otherwise well-maintained without compression fracture. No evidence of spinal stenosis. Mild subchondral sclerosis of the included sacroiliac joints noted. Incidental note of overdistended bladder. Lumbar spondylosis and mild degeneration found."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 750,
+                        "length": 93
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4297,
+                            6.2915,
+                            3.6097,
+                            6.2915,
+                            3.6097,
+                            6.8187,
+                            1.4297,
+                            6.8187
+                        ]
+                    }
+                ],
+                "content": "IMPRESSION No fracture or dislocation is identified Lumbar spondylosis is accidentally found."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 844,
+                        "length": 28
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4348,
+                            7.057,
+                            2.8751,
+                            7.0621,
+                            2.8746,
+                            7.204,
+                            1.4343,
+                            7.199
+                        ]
+                    }
+                ],
+                "content": "Thank you for your referral."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 873,
+                        "length": 47
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4903,
+                            7.8377,
+                            3.9849,
+                            7.8327,
+                            3.9852,
+                            7.9645,
+                            1.4905,
+                            7.9695
+                        ]
+                    }
+                ],
+                "content": "Authorized and Reported: 3 Sep 2021 15:13:59 PM"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 921,
+                        "length": 2
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            6.4945,
+                            7.9087,
+                            6.7226,
+                            7.9087,
+                            6.7226,
+                            8.076,
+                            6.4945,
+                            8.076
+                        ]
+                    }
+                ],
+                "content": "TT"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 924,
+                        "length": 74
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            5.6377,
+                            8.223,
+                            6.7379,
+                            8.223,
+                            6.7379,
+                            8.9379,
+                            5.6377,
+                            8.9379
+                        ]
+                    }
+                ],
+                "content": "Dr. Chan Tai Tai Consultant Radiologist MBBS, FRCR, FHKCR FHKAM(Radiology)"
+            }
+        ],
+        "styles": [],
+        "languages": []
+    }
+}
