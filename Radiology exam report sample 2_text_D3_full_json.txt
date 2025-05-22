@@ -1,0 +1,2926 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2025-05-22T08:19:37Z",
+    "lastUpdatedDateTime": "2025-05-22T08:19:39Z",
+    "analyzeResult": {
+        "apiVersion": "2022-08-31",
+        "modelId": "prebuilt-read",
+        "stringIndexType": "textElements",
+        "content": "Healthy Clinic\nRadiology Report\nRef./ To : DR. CHAN TUNG 陳冬醫生\nPatient: Chau On On 周安安\nAttending Dr: Referring Doctor\nSex / Age: Female / 68Y\nExam Date: 20-May-2021 09:30\nID: D2002001\nPRN: 123789\nDOB: 1-Jan-1952\nCHEST XRAY (PLAIN)\nCLINICAL INFORMATION Right lower lobe pneumonia on antibiotics\nFINDINGS:\nLung: The lungs are well inflated and clear. There is no evidence of pneumonia or\npulmonary edema.\nPleura: There is no pleural effusion or pneumothorax.\nHeart and mediastinum: The cardio-mediastinal silhouette is normal.\nIMPRESSION:\nClear lungs without evidence of pneumonia.\nA\nDr Chan Tung\nConsultant Radiologist\nMBBS FRCR FHKCR FHKAM (Radiology)",
+        "pages": [
+            {
+                "pageNumber": 1,
+                "angle": 0,
+                "width": 8.2639,
+                "height": 11.6806,
+                "unit": "inch",
+                "words": [
+                    {
+                        "content": "Healthy",
+                        "polygon": [
+                            1.668,
+                            2.3168,
+                            1.9975,
+                            2.3168,
+                            1.9975,
+                            2.4284,
+                            1.668,
+                            2.4284
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 0,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "Clinic",
+                        "polygon": [
+                            2.0229,
+                            2.3168,
+                            2.2865,
+                            2.3168,
+                            2.2814,
+                            2.4284,
+                            2.0178,
+                            2.4284
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 8,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Radiology",
+                        "polygon": [
+                            3.4577,
+                            2.5653,
+                            4.1979,
+                            2.5703,
+                            4.1979,
+                            2.7528,
+                            3.4577,
+                            2.7579
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 15,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Report",
+                        "polygon": [
+                            4.2333,
+                            2.5703,
+                            4.7758,
+                            2.5703,
+                            4.7758,
+                            2.7528,
+                            4.2333,
+                            2.7528
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 25,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Ref./",
+                        "polygon": [
+                            1.45,
+                            3.2193,
+                            1.7187,
+                            3.2193,
+                            1.7187,
+                            3.3511,
+                            1.45,
+                            3.3511
+                        ],
+                        "confidence": 0.952,
+                        "span": {
+                            "offset": 32,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "To",
+                        "polygon": [
+                            1.7187,
+                            3.2193,
+                            1.8404,
+                            3.2193,
+                            1.8404,
+                            3.3511,
+                            1.7187,
+                            3.3511
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 38,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": ":",
+                        "polygon": [
+                            1.8454,
+                            3.2193,
+                            1.9113,
+                            3.2142,
+                            1.9113,
+                            3.3511,
+                            1.8454,
+                            3.3511
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 41,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "DR.",
+                        "polygon": [
+                            1.9164,
+                            3.2142,
+                            2.1293,
+                            3.2142,
+                            2.1243,
+                            3.3511,
+                            1.9164,
+                            3.3511
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 43,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "CHAN",
+                        "polygon": [
+                            2.1293,
+                            3.2142,
+                            2.4386,
+                            3.2142,
+                            2.4386,
+                            3.3511,
+                            2.1293,
+                            3.3511
+                        ],
+                        "confidence": 0.99,
+                        "span": {
+                            "offset": 47,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "TUNG",
+                        "polygon": [
+                            2.469,
+                            3.2142,
+                            2.7783,
+                            3.2091,
+                            2.7783,
+                            3.346,
+                            2.464,
+                            3.3511
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 52,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "陳",
+                        "polygon": [
+                            2.9507,
+                            3.2091,
+                            3.047,
+                            3.204,
+                            3.0419,
+                            3.3409,
+                            2.9456,
+                            3.346
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 57,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "冬",
+                        "polygon": [
+                            3.0926,
+                            3.204,
+                            3.1687,
+                            3.204,
+                            3.1687,
+                            3.3409,
+                            3.0876,
+                            3.3409
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 58,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "醫",
+                        "polygon": [
+                            3.2143,
+                            3.204,
+                            3.2954,
+                            3.204,
+                            3.2903,
+                            3.3409,
+                            3.2092,
+                            3.3409
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 59,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "生",
+                        "polygon": [
+                            3.341,
+                            3.204,
+                            3.4222,
+                            3.204,
+                            3.4171,
+                            3.3359,
+                            3.336,
+                            3.3359
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 60,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Patient:",
+                        "polygon": [
+                            1.45,
+                            3.493,
+                            1.8606,
+                            3.493,
+                            1.8657,
+                            3.6248,
+                            1.45,
+                            3.6198
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 62,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "Chau",
+                        "polygon": [
+                            1.8657,
+                            3.493,
+                            2.1395,
+                            3.493,
+                            2.1446,
+                            3.6248,
+                            1.8657,
+                            3.6248
+                        ],
+                        "confidence": 0.989,
+                        "span": {
+                            "offset": 71,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "On",
+                        "polygon": [
+                            2.1496,
+                            3.493,
+                            2.322,
+                            3.493,
+                            2.322,
+                            3.6299,
+                            2.1496,
+                            3.6248
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 76,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "On",
+                        "polygon": [
+                            2.3474,
+                            3.493,
+                            2.4994,
+                            3.493,
+                            2.4994,
+                            3.6299,
+                            2.3474,
+                            3.6299
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 79,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "周",
+                        "polygon": [
+                            2.6161,
+                            3.493,
+                            2.6921,
+                            3.493,
+                            2.6972,
+                            3.6299,
+                            2.6161,
+                            3.6299
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 82,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "安",
+                        "polygon": [
+                            2.7377,
+                            3.493,
+                            2.8188,
+                            3.493,
+                            2.8188,
+                            3.635,
+                            2.7377,
+                            3.6299
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 83,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "安",
+                        "polygon": [
+                            2.8645,
+                            3.493,
+                            2.9456,
+                            3.493,
+                            2.9456,
+                            3.635,
+                            2.8645,
+                            3.635
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 84,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Attending",
+                        "polygon": [
+                            1.45,
+                            3.6857,
+                            1.9468,
+                            3.6857,
+                            1.9468,
+                            3.8175,
+                            1.4449,
+                            3.8124
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 86,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Dr:",
+                        "polygon": [
+                            1.9772,
+                            3.6857,
+                            2.1395,
+                            3.6857,
+                            2.1344,
+                            3.8175,
+                            1.9722,
+                            3.8175
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 96,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Referring",
+                        "polygon": [
+                            2.1648,
+                            3.6857,
+                            2.6515,
+                            3.6857,
+                            2.6465,
+                            3.8175,
+                            2.1598,
+                            3.8175
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 100,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Doctor",
+                        "polygon": [
+                            2.6769,
+                            3.6857,
+                            3.0622,
+                            3.6907,
+                            3.0571,
+                            3.8124,
+                            2.6718,
+                            3.8175
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 110,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Sex",
+                        "polygon": [
+                            1.4551,
+                            3.8682,
+                            1.6224,
+                            3.8682,
+                            1.6224,
+                            4.0051,
+                            1.4551,
+                            4.0051
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 117,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "polygon": [
+                            1.6477,
+                            3.8682,
+                            1.6984,
+                            3.8682,
+                            1.6984,
+                            4.0051,
+                            1.6477,
+                            4.0051
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 121,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Age:",
+                        "polygon": [
+                            1.7288,
+                            3.8682,
+                            1.957,
+                            3.8682,
+                            1.957,
+                            4.0051,
+                            1.7288,
+                            4.0051
+                        ],
+                        "confidence": 0.985,
+                        "span": {
+                            "offset": 123,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Female",
+                        "polygon": [
+                            1.9874,
+                            3.8682,
+                            2.3676,
+                            3.8682,
+                            2.3676,
+                            4,
+                            1.9823,
+                            4.0051
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 128,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "polygon": [
+                            2.393,
+                            3.8682,
+                            2.4487,
+                            3.8631,
+                            2.4487,
+                            4,
+                            2.393,
+                            4
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 135,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "68Y",
+                        "polygon": [
+                            2.4741,
+                            3.8631,
+                            2.687,
+                            3.8631,
+                            2.687,
+                            4,
+                            2.4741,
+                            4
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 137,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "Exam",
+                        "polygon": [
+                            1.4551,
+                            4.0608,
+                            1.6883,
+                            4.0608,
+                            1.6933,
+                            4.1876,
+                            1.4551,
+                            4.1876
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 141,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Date:",
+                        "polygon": [
+                            1.7491,
+                            4.0608,
+                            2.033,
+                            4.0608,
+                            2.0381,
+                            4.1876,
+                            1.7542,
+                            4.1876
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 146,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "20-May-2021",
+                        "polygon": [
+                            2.0584,
+                            4.0608,
+                            2.6769,
+                            4.0557,
+                            2.6769,
+                            4.1825,
+                            2.0584,
+                            4.1876
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 152,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "09:30",
+                        "polygon": [
+                            2.7022,
+                            4.0557,
+                            2.9811,
+                            4.0557,
+                            2.9811,
+                            4.1825,
+                            2.7022,
+                            4.1825
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 164,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "ID:",
+                        "polygon": [
+                            5.227,
+                            3.6654,
+                            5.369,
+                            3.6654,
+                            5.369,
+                            3.782,
+                            5.227,
+                            3.782
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 170,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "D2002001",
+                        "polygon": [
+                            5.3943,
+                            3.6654,
+                            5.9267,
+                            3.6654,
+                            5.9267,
+                            3.782,
+                            5.3943,
+                            3.782
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 174,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "PRN:",
+                        "polygon": [
+                            5.2321,
+                            3.853,
+                            5.4856,
+                            3.853,
+                            5.4856,
+                            3.9645,
+                            5.2321,
+                            3.9645
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 183,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "123789",
+                        "polygon": [
+                            5.5109,
+                            3.853,
+                            5.8861,
+                            3.858,
+                            5.8811,
+                            3.9645,
+                            5.5059,
+                            3.9645
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 188,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "DOB:",
+                        "polygon": [
+                            5.2321,
+                            4.0405,
+                            5.4907,
+                            4.0405,
+                            5.4907,
+                            4.1521,
+                            5.2321,
+                            4.1571
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 195,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "1-Jan-1952",
+                        "polygon": [
+                            5.516,
+                            4.0405,
+                            6.094,
+                            4.0405,
+                            6.0889,
+                            4.1571,
+                            5.516,
+                            4.1521
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 200,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "CHEST",
+                        "polygon": [
+                            1.5108,
+                            4.4563,
+                            1.9215,
+                            4.4563,
+                            1.9215,
+                            4.6286,
+                            1.5108,
+                            4.6185
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 211,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "XRAY",
+                        "polygon": [
+                            1.957,
+                            4.4563,
+                            2.3372,
+                            4.4512,
+                            2.3372,
+                            4.6337,
+                            1.957,
+                            4.6286
+                        ],
+                        "confidence": 0.987,
+                        "span": {
+                            "offset": 217,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "(PLAIN)",
+                        "polygon": [
+                            2.3727,
+                            4.4512,
+                            2.905,
+                            4.4512,
+                            2.905,
+                            4.6337,
+                            2.3727,
+                            4.6337
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 222,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "CLINICAL",
+                        "polygon": [
+                            1.5007,
+                            4.9176,
+                            2.0381,
+                            4.9227,
+                            2.0381,
+                            5.0798,
+                            1.5007,
+                            5.0798
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 230,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "INFORMATION",
+                        "polygon": [
+                            2.0685,
+                            4.9227,
+                            2.9709,
+                            4.9328,
+                            2.9659,
+                            5.0748,
+                            2.0685,
+                            5.0798
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 239,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "Right",
+                        "polygon": [
+                            1.5007,
+                            5.1153,
+                            1.7998,
+                            5.1102,
+                            1.7947,
+                            5.2877,
+                            1.4956,
+                            5.2877
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 251,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "lower",
+                        "polygon": [
+                            1.8353,
+                            5.1102,
+                            2.1699,
+                            5.1102,
+                            2.1648,
+                            5.2877,
+                            1.8302,
+                            5.2877
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 257,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "lobe",
+                        "polygon": [
+                            2.2054,
+                            5.1102,
+                            2.469,
+                            5.1102,
+                            2.464,
+                            5.2877,
+                            2.2003,
+                            5.2877
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 263,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "pneumonia",
+                        "polygon": [
+                            2.5045,
+                            5.1102,
+                            3.1889,
+                            5.1102,
+                            3.1839,
+                            5.2877,
+                            2.4994,
+                            5.2877
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 268,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "on",
+                        "polygon": [
+                            3.2194,
+                            5.1102,
+                            3.3715,
+                            5.1102,
+                            3.3664,
+                            5.2877,
+                            3.2194,
+                            5.2877
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 278,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "antibiotics",
+                        "polygon": [
+                            3.407,
+                            5.1102,
+                            4.0559,
+                            5.1102,
+                            4.0559,
+                            5.2826,
+                            3.4019,
+                            5.2877
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 281,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "FINDINGS:",
+                        "polygon": [
+                            1.5108,
+                            5.6831,
+                            2.1547,
+                            5.6831,
+                            2.1547,
+                            5.8301,
+                            1.5108,
+                            5.8301
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 293,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "Lung:",
+                        "polygon": [
+                            1.5058,
+                            5.8707,
+                            1.8201,
+                            5.8707,
+                            1.815,
+                            6.0279,
+                            1.5058,
+                            6.0329
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 303,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "The",
+                        "polygon": [
+                            1.8505,
+                            5.8707,
+                            2.0736,
+                            5.8656,
+                            2.0685,
+                            6.0279,
+                            1.8454,
+                            6.0279
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 309,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "lungs",
+                        "polygon": [
+                            2.104,
+                            5.8656,
+                            2.4234,
+                            5.8656,
+                            2.4234,
+                            6.0228,
+                            2.0989,
+                            6.0279
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 313,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "are",
+                        "polygon": [
+                            2.4538,
+                            5.8656,
+                            2.6465,
+                            5.8656,
+                            2.6465,
+                            6.0228,
+                            2.4538,
+                            6.0228
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 319,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "well",
+                        "polygon": [
+                            2.6769,
+                            5.8656,
+                            2.9304,
+                            5.8656,
+                            2.9304,
+                            6.0228,
+                            2.6769,
+                            6.0228
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 323,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "inflated",
+                        "polygon": [
+                            2.9608,
+                            5.8656,
+                            3.4272,
+                            5.8656,
+                            3.4272,
+                            6.0228,
+                            2.9608,
+                            6.0228
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 328,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "and",
+                        "polygon": [
+                            3.4577,
+                            5.8656,
+                            3.6807,
+                            5.8656,
+                            3.6757,
+                            6.0228,
+                            3.4577,
+                            6.0228
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 337,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "clear.",
+                        "polygon": [
+                            3.7111,
+                            5.8656,
+                            4.0255,
+                            5.8656,
+                            4.0204,
+                            6.0177,
+                            3.7061,
+                            6.0228
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 341,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "There",
+                        "polygon": [
+                            4.0559,
+                            5.8656,
+                            4.4006,
+                            5.8656,
+                            4.3956,
+                            6.0177,
+                            4.0508,
+                            6.0177
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 348,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "is",
+                        "polygon": [
+                            4.4311,
+                            5.8656,
+                            4.5325,
+                            5.8656,
+                            4.5274,
+                            6.0177,
+                            4.426,
+                            6.0177
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 354,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "no",
+                        "polygon": [
+                            4.5629,
+                            5.8656,
+                            4.715,
+                            5.8656,
+                            4.7099,
+                            6.0177,
+                            4.5578,
+                            6.0177
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 357,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "evidence",
+                        "polygon": [
+                            4.7454,
+                            5.8656,
+                            5.2777,
+                            5.8707,
+                            5.2777,
+                            6.0228,
+                            4.7403,
+                            6.0177
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 360,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "of",
+                        "polygon": [
+                            5.3082,
+                            5.8707,
+                            5.44,
+                            5.8707,
+                            5.44,
+                            6.0228,
+                            5.3082,
+                            6.0228
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 369,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "pneumonia",
+                        "polygon": [
+                            5.4704,
+                            5.8707,
+                            6.1498,
+                            5.8808,
+                            6.1447,
+                            6.0228,
+                            5.4704,
+                            6.0228
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 372,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "or",
+                        "polygon": [
+                            6.1802,
+                            5.8808,
+                            6.3323,
+                            5.8808,
+                            6.3323,
+                            6.0279,
+                            6.1751,
+                            6.0228
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 382,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "pulmonary",
+                        "polygon": [
+                            1.5058,
+                            6.0583,
+                            2.1446,
+                            6.0481,
+                            2.1395,
+                            6.2256,
+                            1.5007,
+                            6.2306
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 385,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "edema.",
+                        "polygon": [
+                            2.18,
+                            6.0481,
+                            2.6566,
+                            6.0532,
+                            2.6566,
+                            6.2205,
+                            2.175,
+                            6.2256
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 395,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "Pleura:",
+                        "polygon": [
+                            1.5159,
+                            6.4385,
+                            1.9215,
+                            6.4334,
+                            1.9215,
+                            6.5805,
+                            1.5108,
+                            6.5754
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 402,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "There",
+                        "polygon": [
+                            1.9519,
+                            6.4334,
+                            2.2967,
+                            6.4334,
+                            2.2967,
+                            6.5805,
+                            1.9519,
+                            6.5805
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 410,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "is",
+                        "polygon": [
+                            2.3271,
+                            6.4334,
+                            2.4234,
+                            6.4334,
+                            2.4183,
+                            6.5805,
+                            2.3271,
+                            6.5805
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 416,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "no",
+                        "polygon": [
+                            2.4487,
+                            6.4284,
+                            2.6059,
+                            6.4284,
+                            2.6008,
+                            6.5805,
+                            2.4487,
+                            6.5805
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 419,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "pleural",
+                        "polygon": [
+                            2.6313,
+                            6.4284,
+                            3.0571,
+                            6.4284,
+                            3.0521,
+                            6.5805,
+                            2.6313,
+                            6.5805
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 422,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "effusion",
+                        "polygon": [
+                            3.0825,
+                            6.4284,
+                            3.5743,
+                            6.4334,
+                            3.5692,
+                            6.5805,
+                            3.0825,
+                            6.5805
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 430,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "or",
+                        "polygon": [
+                            3.5996,
+                            6.4334,
+                            3.7365,
+                            6.4334,
+                            3.7314,
+                            6.5805,
+                            3.5996,
+                            6.5805
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 439,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "pneumothorax.",
+                        "polygon": [
+                            3.7618,
+                            6.4334,
+                            4.6947,
+                            6.4436,
+                            4.6947,
+                            6.5754,
+                            3.7618,
+                            6.5805
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 442,
+                            "length": 13
+                        }
+                    },
+                    {
+                        "content": "Heart",
+                        "polygon": [
+                            1.5159,
+                            6.8137,
+                            1.8353,
+                            6.8086,
+                            1.8353,
+                            6.9455,
+                            1.5159,
+                            6.9455
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 456,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "and",
+                        "polygon": [
+                            1.8657,
+                            6.8086,
+                            2.0939,
+                            6.8086,
+                            2.0939,
+                            6.9505,
+                            1.8657,
+                            6.9455
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 462,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "mediastinum:",
+                        "polygon": [
+                            2.1192,
+                            6.8086,
+                            2.9507,
+                            6.8035,
+                            2.9507,
+                            6.9556,
+                            2.1243,
+                            6.9505
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 466,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "The",
+                        "polygon": [
+                            2.976,
+                            6.8035,
+                            3.2042,
+                            6.8035,
+                            3.2092,
+                            6.9556,
+                            2.9811,
+                            6.9556
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 479,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "cardio-mediastinal",
+                        "polygon": [
+                            3.2346,
+                            6.8035,
+                            4.3499,
+                            6.8035,
+                            4.3499,
+                            6.9556,
+                            3.2346,
+                            6.9556
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 483,
+                            "length": 18
+                        }
+                    },
+                    {
+                        "content": "silhouette",
+                        "polygon": [
+                            4.3753,
+                            6.8035,
+                            4.9735,
+                            6.8086,
+                            4.9786,
+                            6.9505,
+                            4.3753,
+                            6.9556
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 502,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "is",
+                        "polygon": [
+                            5.004,
+                            6.8086,
+                            5.1003,
+                            6.8086,
+                            5.1003,
+                            6.9505,
+                            5.004,
+                            6.9505
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 513,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "normal.",
+                        "polygon": [
+                            5.1307,
+                            6.8086,
+                            5.6073,
+                            6.8137,
+                            5.6073,
+                            6.9455,
+                            5.1307,
+                            6.9505
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 516,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "IMPRESSION:",
+                        "polygon": [
+                            1.5058,
+                            7.3663,
+                            2.3372,
+                            7.3713,
+                            2.3321,
+                            7.5082,
+                            1.5108,
+                            7.5082
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 524,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "Clear",
+                        "polygon": [
+                            1.5058,
+                            7.5538,
+                            1.7998,
+                            7.5538,
+                            1.7998,
+                            7.7059,
+                            1.5058,
+                            7.7059
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 536,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "lungs",
+                        "polygon": [
+                            1.8302,
+                            7.5538,
+                            2.1496,
+                            7.5538,
+                            2.1496,
+                            7.711,
+                            1.8302,
+                            7.7059
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 542,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "without",
+                        "polygon": [
+                            2.18,
+                            7.5538,
+                            2.6566,
+                            7.5538,
+                            2.6566,
+                            7.711,
+                            2.18,
+                            7.711
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 548,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "evidence",
+                        "polygon": [
+                            2.687,
+                            7.5538,
+                            3.2244,
+                            7.5538,
+                            3.2244,
+                            7.711,
+                            2.687,
+                            7.711
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 556,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "of",
+                        "polygon": [
+                            3.2549,
+                            7.5538,
+                            3.3867,
+                            7.5538,
+                            3.3867,
+                            7.711,
+                            3.2549,
+                            7.711
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 565,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "pneumonia.",
+                        "polygon": [
+                            3.4171,
+                            7.5538,
+                            4.1624,
+                            7.5538,
+                            4.1573,
+                            7.711,
+                            3.4171,
+                            7.711
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 568,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "A",
+                        "polygon": [
+                            1.7339,
+                            8.0861,
+                            1.9925,
+                            8.0861,
+                            1.9925,
+                            8.4816,
+                            1.7339,
+                            8.4816
+                        ],
+                        "confidence": 0.541,
+                        "span": {
+                            "offset": 579,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Dr",
+                        "polygon": [
+                            1.5108,
+                            8.6742,
+                            1.6426,
+                            8.6742,
+                            1.6426,
+                            8.8213,
+                            1.5108,
+                            8.8213
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 581,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "Chan",
+                        "polygon": [
+                            1.668,
+                            8.6742,
+                            1.9874,
+                            8.6844,
+                            1.9823,
+                            8.8263,
+                            1.668,
+                            8.8213
+                        ],
+                        "confidence": 0.989,
+                        "span": {
+                            "offset": 584,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Tung",
+                        "polygon": [
+                            2.0178,
+                            8.6844,
+                            2.3068,
+                            8.6894,
+                            2.3017,
+                            8.8314,
+                            2.0127,
+                            8.8263
+                        ],
+                        "confidence": 0.989,
+                        "span": {
+                            "offset": 589,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "Consultant",
+                        "polygon": [
+                            1.5108,
+                            8.8618,
+                            2.1496,
+                            8.8669,
+                            2.1496,
+                            9.0139,
+                            1.5108,
+                            9.0088
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 594,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "Radiologist",
+                        "polygon": [
+                            2.18,
+                            8.8669,
+                            2.8645,
+                            8.8618,
+                            2.8594,
+                            9.019,
+                            2.18,
+                            9.0139
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 605,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "MBBS",
+                        "polygon": [
+                            1.5108,
+                            9.0494,
+                            1.8454,
+                            9.0494,
+                            1.8454,
+                            9.1913,
+                            1.5108,
+                            9.1913
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 617,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "FRCR",
+                        "polygon": [
+                            1.8759,
+                            9.0494,
+                            2.1851,
+                            9.0494,
+                            2.18,
+                            9.1964,
+                            1.8759,
+                            9.1964
+                        ],
+                        "confidence": 0.986,
+                        "span": {
+                            "offset": 622,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "FHKCR",
+                        "polygon": [
+                            2.2155,
+                            9.0443,
+                            2.611,
+                            9.0443,
+                            2.611,
+                            9.2015,
+                            2.2105,
+                            9.1964
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 627,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "FHKAM",
+                        "polygon": [
+                            2.6414,
+                            9.0443,
+                            3.047,
+                            9.0443,
+                            3.047,
+                            9.2065,
+                            2.6414,
+                            9.2015
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 633,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "(Radiology)",
+                        "polygon": [
+                            3.123,
+                            9.0443,
+                            3.8125,
+                            9.0443,
+                            3.8075,
+                            9.2167,
+                            3.123,
+                            9.2065
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 639,
+                            "length": 11
+                        }
+                    }
+                ],
+                "lines": [
+                    {
+                        "content": "Healthy Clinic",
+                        "polygon": [
+                            1.6629,
+                            2.3118,
+                            2.2814,
+                            2.3118,
+                            2.2814,
+                            2.4233,
+                            1.6629,
+                            2.4233
+                        ],
+                        "spans": [
+                            {
+                                "offset": 0,
+                                "length": 14
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Radiology Report",
+                        "polygon": [
+                            3.4526,
+                            2.5602,
+                            4.7809,
+                            2.5653,
+                            4.7809,
+                            2.7528,
+                            3.4526,
+                            2.7528
+                        ],
+                        "spans": [
+                            {
+                                "offset": 15,
+                                "length": 16
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Ref./ To : DR. CHAN TUNG 陳冬醫生",
+                        "polygon": [
+                            1.4449,
+                            3.2142,
+                            3.4424,
+                            3.199,
+                            3.4475,
+                            3.3359,
+                            1.4449,
+                            3.3511
+                        ],
+                        "spans": [
+                            {
+                                "offset": 32,
+                                "length": 29
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Patient: Chau On On 周安安",
+                        "polygon": [
+                            1.4449,
+                            3.4879,
+                            2.9557,
+                            3.4879,
+                            2.9557,
+                            3.6299,
+                            1.4449,
+                            3.6198
+                        ],
+                        "spans": [
+                            {
+                                "offset": 62,
+                                "length": 23
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Attending Dr: Referring Doctor",
+                        "polygon": [
+                            1.4449,
+                            3.6806,
+                            3.0622,
+                            3.6806,
+                            3.0622,
+                            3.8124,
+                            1.4449,
+                            3.8124
+                        ],
+                        "spans": [
+                            {
+                                "offset": 86,
+                                "length": 30
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Sex / Age: Female / 68Y",
+                        "polygon": [
+                            1.45,
+                            3.8631,
+                            2.687,
+                            3.858,
+                            2.687,
+                            3.9949,
+                            1.45,
+                            4
+                        ],
+                        "spans": [
+                            {
+                                "offset": 117,
+                                "length": 23
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Exam Date: 20-May-2021 09:30",
+                        "polygon": [
+                            1.45,
+                            4.0608,
+                            2.9862,
+                            4.0557,
+                            2.9862,
+                            4.1774,
+                            1.45,
+                            4.1825
+                        ],
+                        "spans": [
+                            {
+                                "offset": 141,
+                                "length": 28
+                            }
+                        ]
+                    },
+                    {
+                        "content": "ID: D2002001",
+                        "polygon": [
+                            5.222,
+                            3.6654,
+                            5.9317,
+                            3.6603,
+                            5.9317,
+                            3.7769,
+                            5.222,
+                            3.782
+                        ],
+                        "spans": [
+                            {
+                                "offset": 170,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    {
+                        "content": "PRN: 123789",
+                        "polygon": [
+                            5.227,
+                            3.8479,
+                            5.8963,
+                            3.8479,
+                            5.8963,
+                            3.9645,
+                            5.227,
+                            3.9594
+                        ],
+                        "spans": [
+                            {
+                                "offset": 183,
+                                "length": 11
+                            }
+                        ]
+                    },
+                    {
+                        "content": "DOB: 1-Jan-1952",
+                        "polygon": [
+                            5.227,
+                            4.0355,
+                            6.0991,
+                            4.0355,
+                            6.0991,
+                            4.1521,
+                            5.227,
+                            4.1521
+                        ],
+                        "spans": [
+                            {
+                                "offset": 195,
+                                "length": 15
+                            }
+                        ]
+                    },
+                    {
+                        "content": "CHEST XRAY (PLAIN)",
+                        "polygon": [
+                            1.5058,
+                            4.4512,
+                            2.905,
+                            4.4512,
+                            2.905,
+                            4.6286,
+                            1.5058,
+                            4.6286
+                        ],
+                        "spans": [
+                            {
+                                "offset": 211,
+                                "length": 18
+                            }
+                        ]
+                    },
+                    {
+                        "content": "CLINICAL INFORMATION",
+                        "polygon": [
+                            1.4905,
+                            4.9125,
+                            2.9963,
+                            4.9176,
+                            2.9963,
+                            5.0798,
+                            1.4905,
+                            5.0748
+                        ],
+                        "spans": [
+                            {
+                                "offset": 230,
+                                "length": 20
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Right lower lobe pneumonia on antibiotics",
+                        "polygon": [
+                            1.4956,
+                            5.1102,
+                            4.061,
+                            5.1052,
+                            4.061,
+                            5.2775,
+                            1.4956,
+                            5.2826
+                        ],
+                        "spans": [
+                            {
+                                "offset": 251,
+                                "length": 41
+                            }
+                        ]
+                    },
+                    {
+                        "content": "FINDINGS:",
+                        "polygon": [
+                            1.5058,
+                            5.6831,
+                            2.1598,
+                            5.6831,
+                            2.1598,
+                            5.8251,
+                            1.5058,
+                            5.8251
+                        ],
+                        "spans": [
+                            {
+                                "offset": 293,
+                                "length": 9
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Lung: The lungs are well inflated and clear. There is no evidence of pneumonia or",
+                        "polygon": [
+                            1.5058,
+                            5.8606,
+                            6.3323,
+                            5.8606,
+                            6.3323,
+                            6.0279,
+                            1.5058,
+                            6.0279
+                        ],
+                        "spans": [
+                            {
+                                "offset": 303,
+                                "length": 81
+                            }
+                        ]
+                    },
+                    {
+                        "content": "pulmonary edema.",
+                        "polygon": [
+                            1.4956,
+                            6.0532,
+                            2.6617,
+                            6.0481,
+                            2.6617,
+                            6.2154,
+                            1.4956,
+                            6.2256
+                        ],
+                        "spans": [
+                            {
+                                "offset": 385,
+                                "length": 16
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Pleura: There is no pleural effusion or pneumothorax.",
+                        "polygon": [
+                            1.5108,
+                            6.4284,
+                            4.6998,
+                            6.4284,
+                            4.6998,
+                            6.5805,
+                            1.5108,
+                            6.5754
+                        ],
+                        "spans": [
+                            {
+                                "offset": 402,
+                                "length": 53
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Heart and mediastinum: The cardio-mediastinal silhouette is normal.",
+                        "polygon": [
+                            1.5108,
+                            6.7984,
+                            5.6022,
+                            6.8035,
+                            5.6022,
+                            6.9505,
+                            1.5108,
+                            6.9505
+                        ],
+                        "spans": [
+                            {
+                                "offset": 456,
+                                "length": 67
+                            }
+                        ]
+                    },
+                    {
+                        "content": "IMPRESSION:",
+                        "polygon": [
+                            1.5058,
+                            7.3612,
+                            2.3372,
+                            7.3663,
+                            2.3372,
+                            7.5082,
+                            1.5058,
+                            7.5031
+                        ],
+                        "spans": [
+                            {
+                                "offset": 524,
+                                "length": 11
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Clear lungs without evidence of pneumonia.",
+                        "polygon": [
+                            1.5058,
+                            7.5488,
+                            4.1573,
+                            7.5538,
+                            4.1573,
+                            7.711,
+                            1.5058,
+                            7.7059
+                        ],
+                        "spans": [
+                            {
+                                "offset": 536,
+                                "length": 42
+                            }
+                        ]
+                    },
+                    {
+                        "content": "A",
+                        "polygon": [
+                            1.6224,
+                            8.0861,
+                            2.1091,
+                            8.0861,
+                            2.1344,
+                            8.4816,
+                            1.6325,
+                            8.4816
+                        ],
+                        "spans": [
+                            {
+                                "offset": 579,
+                                "length": 1
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Dr Chan Tung",
+                        "polygon": [
+                            1.5058,
+                            8.6742,
+                            2.3119,
+                            8.6844,
+                            2.3119,
+                            8.8314,
+                            1.5058,
+                            8.8162
+                        ],
+                        "spans": [
+                            {
+                                "offset": 581,
+                                "length": 12
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Consultant Radiologist",
+                        "polygon": [
+                            1.5058,
+                            8.8618,
+                            2.8594,
+                            8.8618,
+                            2.8594,
+                            9.0139,
+                            1.5058,
+                            9.0088
+                        ],
+                        "spans": [
+                            {
+                                "offset": 594,
+                                "length": 22
+                            }
+                        ]
+                    },
+                    {
+                        "content": "MBBS FRCR FHKCR FHKAM (Radiology)",
+                        "polygon": [
+                            1.5058,
+                            9.0443,
+                            3.8125,
+                            9.0443,
+                            3.8125,
+                            9.2116,
+                            1.5058,
+                            9.2015
+                        ],
+                        "spans": [
+                            {
+                                "offset": 617,
+                                "length": 33
+                            }
+                        ]
+                    }
+                ],
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 650
+                    }
+                ],
+                "kind": "document"
+            }
+        ],
+        "paragraphs": [
+            {
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 14
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.6629,
+                            2.3118,
+                            2.2814,
+                            2.3118,
+                            2.2814,
+                            2.4233,
+                            1.6629,
+                            2.4233
+                        ]
+                    }
+                ],
+                "content": "Healthy Clinic"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 15,
+                        "length": 16
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            3.4526,
+                            2.5602,
+                            4.7809,
+                            2.5602,
+                            4.7809,
+                            2.7528,
+                            3.4526,
+                            2.7528
+                        ]
+                    }
+                ],
+                "content": "Radiology Report"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 32,
+                        "length": 29
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4449,
+                            3.2142,
+                            3.4424,
+                            3.199,
+                            3.4475,
+                            3.3359,
+                            1.4449,
+                            3.3511
+                        ]
+                    }
+                ],
+                "content": "Ref./ To : DR. CHAN TUNG 陳冬醫生"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 62,
+                        "length": 23
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4449,
+                            3.4879,
+                            2.9557,
+                            3.4879,
+                            2.9557,
+                            3.6299,
+                            1.4449,
+                            3.6198
+                        ]
+                    }
+                ],
+                "content": "Patient: Chau On On 周安安"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 86,
+                        "length": 30
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4449,
+                            3.6806,
+                            3.0622,
+                            3.6806,
+                            3.0622,
+                            3.8124,
+                            1.4449,
+                            3.8124
+                        ]
+                    }
+                ],
+                "content": "Attending Dr: Referring Doctor"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 117,
+                        "length": 23
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.45,
+                            3.8631,
+                            2.687,
+                            3.858,
+                            2.687,
+                            3.9949,
+                            1.45,
+                            4
+                        ]
+                    }
+                ],
+                "content": "Sex / Age: Female / 68Y"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 141,
+                        "length": 28
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.45,
+                            4.0608,
+                            2.9862,
+                            4.0557,
+                            2.9862,
+                            4.1774,
+                            1.45,
+                            4.1825
+                        ]
+                    }
+                ],
+                "content": "Exam Date: 20-May-2021 09:30"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 170,
+                        "length": 12
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            5.222,
+                            3.6654,
+                            5.9317,
+                            3.6603,
+                            5.9317,
+                            3.7769,
+                            5.222,
+                            3.782
+                        ]
+                    }
+                ],
+                "content": "ID: D2002001"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 183,
+                        "length": 11
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            5.227,
+                            3.8479,
+                            5.8963,
+                            3.8479,
+                            5.8963,
+                            3.9645,
+                            5.227,
+                            3.9594
+                        ]
+                    }
+                ],
+                "content": "PRN: 123789"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 195,
+                        "length": 15
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            5.227,
+                            4.0355,
+                            6.0991,
+                            4.0355,
+                            6.0991,
+                            4.1521,
+                            5.227,
+                            4.1521
+                        ]
+                    }
+                ],
+                "content": "DOB: 1-Jan-1952"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 211,
+                        "length": 18
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            4.4512,
+                            2.905,
+                            4.4512,
+                            2.905,
+                            4.6286,
+                            1.5058,
+                            4.6286
+                        ]
+                    }
+                ],
+                "content": "CHEST XRAY (PLAIN)"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 230,
+                        "length": 62
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4902,
+                            4.9125,
+                            4.0606,
+                            4.9074,
+                            4.0613,
+                            5.2775,
+                            1.491,
+                            5.2826
+                        ]
+                    }
+                ],
+                "content": "CLINICAL INFORMATION Right lower lobe pneumonia on antibiotics"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 293,
+                        "length": 9
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            5.6831,
+                            2.1598,
+                            5.6831,
+                            2.1598,
+                            5.8251,
+                            1.5058,
+                            5.8251
+                        ]
+                    }
+                ],
+                "content": "FINDINGS:"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 303,
+                        "length": 81
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            5.8606,
+                            6.3323,
+                            5.8606,
+                            6.3323,
+                            6.0279,
+                            1.5058,
+                            6.0279
+                        ]
+                    }
+                ],
+                "content": "Lung: The lungs are well inflated and clear. There is no evidence of pneumonia or"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 385,
+                        "length": 16
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.4956,
+                            6.0532,
+                            2.6617,
+                            6.0481,
+                            2.6617,
+                            6.2154,
+                            1.4956,
+                            6.2256
+                        ]
+                    }
+                ],
+                "content": "pulmonary edema."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 402,
+                        "length": 53
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5108,
+                            6.4284,
+                            4.6998,
+                            6.4284,
+                            4.6998,
+                            6.5805,
+                            1.5108,
+                            6.5805
+                        ]
+                    }
+                ],
+                "content": "Pleura: There is no pleural effusion or pneumothorax."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 456,
+                        "length": 67
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5108,
+                            6.7984,
+                            5.6022,
+                            6.7984,
+                            5.6022,
+                            6.9505,
+                            1.5108,
+                            6.9505
+                        ]
+                    }
+                ],
+                "content": "Heart and mediastinum: The cardio-mediastinal silhouette is normal."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 524,
+                        "length": 11
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            7.3612,
+                            2.3372,
+                            7.3663,
+                            2.3372,
+                            7.5082,
+                            1.5058,
+                            7.5031
+                        ]
+                    }
+                ],
+                "content": "IMPRESSION:"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 536,
+                        "length": 42
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            7.5488,
+                            4.1573,
+                            7.5538,
+                            4.1573,
+                            7.711,
+                            1.5058,
+                            7.7059
+                        ]
+                    }
+                ],
+                "content": "Clear lungs without evidence of pneumonia."
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 579,
+                        "length": 1
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.6224,
+                            8.0861,
+                            2.1344,
+                            8.0861,
+                            2.1344,
+                            8.4816,
+                            1.6224,
+                            8.4816
+                        ]
+                    }
+                ],
+                "content": "A"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 581,
+                        "length": 12
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            8.6742,
+                            2.3119,
+                            8.6844,
+                            2.3119,
+                            8.8314,
+                            1.5058,
+                            8.8162
+                        ]
+                    }
+                ],
+                "content": "Dr Chan Tung"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 594,
+                        "length": 22
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            8.8618,
+                            2.8594,
+                            8.8618,
+                            2.8594,
+                            9.0139,
+                            1.5058,
+                            9.0088
+                        ]
+                    }
+                ],
+                "content": "Consultant Radiologist"
+            },
+            {
+                "spans": [
+                    {
+                        "offset": 617,
+                        "length": 33
+                    }
+                ],
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            1.5058,
+                            9.0443,
+                            3.8125,
+                            9.0443,
+                            3.8125,
+                            9.2116,
+                            1.5058,
+                            9.2015
+                        ]
+                    }
+                ],
+                "content": "MBBS FRCR FHKCR FHKAM (Radiology)"
+            }
+        ],
+        "styles": [
+            {
+                "confidence": 1,
+                "spans": [
+                    {
+                        "offset": 579,
+                        "length": 1
+                    }
+                ],
+                "isHandwritten": true
+            }
+        ],
+        "languages": []
+    }
+}
