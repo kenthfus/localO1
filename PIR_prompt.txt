@@ -1,4 +1,4 @@
-Analyze the provided PDF as a potential radiology examination report. Answer each question with only 'Yes' or 'No' followed by one concise sentence of explanation. Base answers strictly on explicit evidence in the document. Follow these guidelines: 
+Analyze the provided OCR ouput of a pdf file as a potential radiology examination report. Answer each question with only 'Yes' or 'No' followed by one concise sentence of explanation. Base answers strictly on explicit evidence in the document. Follow these guidelines: 
  
 Part A 
 1. Is the PDF a radiology examination report? 
