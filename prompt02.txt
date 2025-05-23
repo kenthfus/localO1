@@ -1,0 +1,39 @@
+Analyze the provided OCR ouput of a pdf file as a potential radiology examination report. Answer each question with only 'Yes' or 'No' followed by one concise sentence of explanation. Base answers strictly on explicit evidence in the document. Follow these guidelines: 
+ 
+Part A 
+1. Is the PDF a radiology examination report? 
+   - Confirm only if both title and content align with radiology standards (e.g., sections like Findings/Impression). Reject if content is unrelated (e.g., referrals, prescriptions). 
+ 
+Part B 
+1. Does the title align with radiology? 
+   - Check only the title (e.g., terms like "X-ray," "MRI," "CT"). Ignore content. 
+   - Example: A title "CHEST XRAY" with non-radiology content still answers Yes here. 
+ 
+2. Is the content consistent with radiology? 
+   - Require sections like Findings, Impressions, or Conclusion. Reject non-radiology content (e.g., therapy referrals). Ignore title. 
+   - Example: Answer No if content is non-radiology even if the title is radiology. 
+ 
+Part C 
+1. Is the report in the correct order/direction? 
+   - Rotated pages (e.g., 90°) → Answer No. 
+   - Pages order is reversed or not in sequence → Answer No. 
+2. Clarity satisfactory? 
+3. No missing pages? 
+4. No missing content? 
+5. Computer-generated? 
+6. Template format? 
+7. Page numbers present? 
+   - Single-page reports: Always answer Yes (ignore presence/absence of page numbers). 
+   - Multi-page reports: Answer Yes only if every page present has a page number. Please note that ignore checking for any missing page.
+ 
+Part D 
+Answer Yes only if explicit value next to the corresponding label exist (labels without values → No): 
+Make sure answer Yes only if the label is present and it's value is also present and not blank.
+1. Patient demographics? (e.g., name, sex, DOB, ID number). 
+2. Performing institution name/logo? (check headers). 
+3. The name of Examination name? (don't use report title for examination name.)
+4. The value of examination date? 
+5. The value of Reporter’s name? 
+6. The value of Reported date? 
+7. The content of Findings/Impression/Conclusion sections? 
+8. The specific name of Requesting healthcare provider/referring doctor?
